@@ -24,3 +24,6 @@ Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, 
 Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
 OR
 Chloramphenicol 500mg, IV, Q6H","Cefotaxime 1g, IV, Q8H",5-7 days,It is a medical emergency; Avoid throat examination; Be prepared for emergency intubation.
+Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
+PLUS
+Chloramphenicol 25mg/kg, IV, Q6H","Ceftriaxone 100mg/kg, IV, Q24H ",5-7 days,It is a medical emergency; Avoid throat examination
