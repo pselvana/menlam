@@ -1,0 +1,26 @@
+Patient,Section,Section Remarks,Illness,Illness Variant,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,"Hypersensitive to penicillin:
+For delayed/non-life
+threatening",80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,For immediate/life threatening,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4 - 6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
+PLUS
+Rifampicin 600mg PO, Q24H",4 - 6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
+OR
+Penicillin V 500mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",10 days,Antibiotics should be used only if there is strong suspicion of bacterial infections
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Corynebacterium diphtheriae,"Benzylpenicillin 1MU, IV, Q6H",,14 days,"Once patient is able to swallow, switch to penicillin V 250mg, PO, Q6H"
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sinusitis,Acute,,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",5 days,"Most sinusitis does not require antibiotics except:
+1. Symptoms lasting longer than 7 days with purulent nasal discharge, sinus tenderness or maxillary toothache;
+2. Severe symptoms and high fever more than 39oC or higher at onset of illness and lasting for more than 3 days; and
+3. Worsening symptoms after initial improvement."
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sinusitis,Chronic (more than 12 weeks),,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",3 - 10 weeks,"Most sinusitis does not require antibiotics except:
+1. Symptoms lasting longer than 7 days with purulent nasal discharge, sinus tenderness or maxillary toothache;
+2. Severe symptoms and high fever more than 39oC or higher at onset of illness and lasting for more than 3 days; and
+3. Worsening symptoms after initial improvement."
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Otitis media,Acute,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H","Erythromycin 500mg, PO, Q6H",5 days,
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Otitis media,Chronic,Decide therapy based on culture and sensitivity reports,,,,
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
+OR
+Chloramphenicol 500mg, IV, Q6H","Cefotaxime 1g, IV, Q8H",5-7 days,It is a medical emergency; Avoid throat examination; Be prepared for emergency intubation.
