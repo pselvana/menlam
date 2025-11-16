@@ -5,7 +5,7 @@
 			<p class="mb-6 text-lg">
 				A trusted offline medical reference for Bhutanese doctors.<br />
 			</p>
-			<span class="text-rotate text-4xl">
+			<span class="text-rotate text-4xl duration-5000">
 				<span class="justify-items-center">
 					<span>Fast.</span>
 					<span>Reliable.</span>
