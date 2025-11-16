@@ -13,7 +13,7 @@
 				</span>
 			</span>
 			<div class="flex justify-center gap-6 pt-6">
-				<a href="/treatments" class="btn btn-primary">View Treatments</a>
+				<a href="/treatments" class="btn btn-primary">Treatments</a>
 				<a href="/terms" class="btn btn-outline">Terms of Use</a>
 			</div>
 		</div>

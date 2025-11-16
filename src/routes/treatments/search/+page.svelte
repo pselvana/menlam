@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import Papa from 'papaparse';
+  import Calculator from '$lib/Calculator.svelte';
 
   let data = [];
   let headers = [];
@@ -203,6 +204,7 @@
     <div class="card-body">
       <h2 class="card-title text-2xl mb-4">Antibiotics Database</h2>
       
+      <Calculator />
       {#if loading}
         <div class="flex justify-center items-center py-8">
           <span class="loading loading-spinner loading-lg"></span>
