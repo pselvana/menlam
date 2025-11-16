@@ -92,7 +92,7 @@
 	<div class="mt-2 flex flex-wrap gap-3">
 		{#each patients as p}
 			<button
-				class="btn {selectedPatient === p ? 'btn-primary' : ''}"
+				class="btn {selectedPatient === p ? 'btn-accent' : 'btn-secondary'}"
 				on:click={() => choosePatient(p)}
 			>
 				{p}
@@ -106,7 +106,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each sections as s}
 				<button
-					class="btn {selectedSection === s ? 'btn-primary' : ''}"
+					class="btn {selectedSection === s ? 'btn-accent' : 'btn-secondary'}"
 					on:click={() => chooseSection(s)}
 				>
 					{s}
@@ -118,7 +118,7 @@
 	{#if selectedSection}
         {#if sectionRemarks}
             <div class="mt-4 rounded border border-base-300 bg-base-200 p-4">
-                <h3 class="mb-2 text-lg font-semibold">Remarks:</h3>
+                <h3 class="mb-2 text-lg font-semibold">Category Remarks:</h3>
                 <p>{sectionRemarks}</p>
             </div>
         {/if}
@@ -127,7 +127,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each illnesses as ill}
 				<button
-					class="btn {selectedIllness === ill ? 'btn-primary' : ''}"
+					class="btn {selectedIllness === ill ? 'btn-accent' : 'btn-secondary'}"
 					on:click={() => chooseIllness(ill)}
 				>
 					{ill}
@@ -138,11 +138,11 @@
 
 	{#if selectedIllness}
 		<!-- VARIANTS -->
-		<h2 class="mt-6 text-xl font-semibold">Choose Illness Variant & Agent</h2>
+		<h2 class="mt-6 text-xl font-semibold">Choose Illness Variant [Common Causative Agents]</h2>
 		<div class="mt-2 flex flex-col gap-3">
 			{#each variants as v}
 				<button
-					class="btn btn-outline {selectedVariant === v ? 'btn-primary' : ''}"
+					class="btn {selectedVariant === v? 'btn-accent' : 'btn-secondary'}"
 					on:click={() => chooseVariant(v)}
 				>
                     <b>{v.variant || "No Variant"}</b>{v.agent ? `[Agent: ${v.agent}]` : ""}
