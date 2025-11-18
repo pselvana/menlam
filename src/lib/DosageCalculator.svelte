@@ -29,7 +29,7 @@
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
         <!-- Page content here -->
-        <label for="my-drawer" class="drawer-button btn btn-primary">Calculator</label>
+        <label for="my-drawer" class="drawer-button btn btn-accent">Dosage Calculator</label>
     </div>
     <div class="drawer-side">
         <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
@@ -51,7 +51,7 @@
         <input id="dosage" bind:value={dosage} type="number" placeholder="Enter dosage in mg/kg" class="input input-bordered" />
         </div>
 
-        <button on:click={calculateDosage} class="btn btn-primary w-full">Calculate</button>
+        <button on:click={calculateDosage} class="btn btn-accent w-full">Calculate</button>
 
         <div class="mt-4 p-3 bg-base-100 rounded border border-base-300">
         {#if result}

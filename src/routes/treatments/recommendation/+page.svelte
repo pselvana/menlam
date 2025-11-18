@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { loadCSV } from '../csvLoader.js';
-	import Calculator from '$lib/Calculator.svelte';
+	import DosageCalculator from '$lib/DosageCalculator.svelte';
 
 	let csv = [];
 	let patients = [];
@@ -93,7 +93,7 @@
 	<div class="mt-2 flex flex-wrap gap-3">
 		{#each patients as p}
 			<button
-				class="btn {selectedPatient === p ? 'btn-accent' : 'btn-secondary'}"
+				class="btn {selectedPatient === p ? 'btn-secondary' : 'btn-outline'}"
 				on:click={() => choosePatient(p)}
 			>
 				{p}
@@ -107,7 +107,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each sections as s}
 				<button
-					class="btn {selectedSection === s ? 'btn-accent' : 'btn-secondary'}"
+					class="btn {selectedSection === s ? 'btn-secondary' : 'btn-outline'}"
 					on:click={() => chooseSection(s)}
 				>
 					{s}
@@ -128,7 +128,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each illnesses as ill}
 				<button
-					class="btn {selectedIllness === ill ? 'btn-accent' : 'btn-secondary'}"
+					class="btn {selectedIllness === ill ? 'btn-secondary' : 'btn-outline'}"
 					on:click={() => chooseIllness(ill)}
 				>
 					{ill}
@@ -143,7 +143,7 @@
 		<div class="mt-2 flex flex-col gap-3">
 			{#each variants as v}
 				<button
-					class="btn {selectedVariant === v? 'btn-accent' : 'btn-secondary'}"
+					class="btn {selectedVariant === v? 'btn-secondary' : 'btn-outline'}"
 					on:click={() => chooseVariant(v)}
 				>
                     <b>{v.variant || "No Variant"}</b>{v.agent ? `[Agent: ${v.agent}]` : ""}
@@ -155,7 +155,7 @@
 	{#if finalRows.length > 0}
 		<h2 class="mt-6 text-xl font-semibold">Treatment Details</h2>
 
-		<Calculator />
+		<DosageCalculator />
 
 		<div class="overflow-x-auto">
 			<table class="table mt-4 w-full table-zebra">
