@@ -1,11 +1,11 @@
 <div class="hero min-h-screen bg-base-100">
 	<div class="hero-content text-center">
 		<div class="max-w-xl p-6">
-			<h1 class="mb-6 text-5xl font-bold">Project Menlam</h1>
+			<h1 class="mb-6 text-5xl font-bold">Bhutan Antimicrobial Guidelines</h1>
 			<p class="mb-6 text-lg">
-				A trusted offline medical reference for Bhutanese doctors.<br />
+				A trusted medical reference for Bhutanese doctors.<br />
 			</p>
-			<span class="text-rotate text-4xl duration-5000">
+			<span>
 				<span class="justify-items-center">
 					<span>Fast.</span>
 					<span>Reliable.</span>
@@ -13,7 +13,7 @@
 				</span>
 			</span>
 			<div class="flex justify-center gap-6 pt-6">
-				<a href="/treatments" class="btn btn-primary">Treatments</a>
+				<a href="/treatments" class="btn btn-primary">Treatment Recommendations</a>
 				<a href="/terms" class="btn btn-outline">Terms of Use</a>
 			</div>
 		</div>
