@@ -23,7 +23,7 @@
   let selectedRow = null;
   
   // Columns to search in
-  const searchColumnNames = ["Illness", "Common Causative Agents", "Recommended Antibiotic Therapy", "Alternative Antibiotic Therapy"];
+  const searchColumnNames = ["Infection", "Common Causative Agents", "Recommended Antibiotic Therapy", "Alternative Antibiotic Therapy"];
   
   // Debounce timer
   let debounceTimer;

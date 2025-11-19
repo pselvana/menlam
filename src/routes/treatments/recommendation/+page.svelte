@@ -6,13 +6,11 @@
 	let csv = [];
 	let patients = [];
 	let sections = [];
-	let illnesses = [];
+	let infections = [];
     let sectionRemarks = null;
-	let variants = [];
 	let selectedPatient = null;
 	let selectedSection = null;
-	let selectedIllness = null;
-	let selectedVariant = null;
+	let selectedInfection = null;
 	let finalRows = [];
 
 	onMount(async () => {
@@ -27,8 +25,7 @@
 		selectedPatient = p;
 		selectedSection = null;
         sectionRemarks = null;
-		selectedIllness = null;
-		selectedVariant = null;
+		selectedInfection = null;
 		finalRows = [];
 
 		sections = [...new Set(csv.filter((r) => r.Patient === p).map((r) => r.Section))].sort();
@@ -36,13 +33,12 @@
 
 	function chooseSection(s) {
 		selectedSection = s;
-		selectedIllness = null;
-		selectedVariant = null;
+		selectedInfection = null;
 		finalRows = [];
 
-		illnesses = [
+		infections = [
 			...new Set(
-				csv.filter((r) => r.Patient === selectedPatient && r.Section === s).map((r) => r.Illness)
+				csv.filter((r) => r.Patient === selectedPatient && r.Section === s).map((r) => r.Infection)
 			)
 		].sort();
 
@@ -51,37 +47,20 @@
         sectionRemarks = remarkRow ? remarkRow['Section Remarks'] : "";
 	}
 
-	function chooseIllness(i) {
-		selectedVariant = null;
+	function chooseInfection(i) {
 
-		selectedIllness = i;
+		selectedInfection = i;
 		finalRows = [];
-
-		// illness variants + causative agents in combinations
-		variants = csv
-			.filter(
-				(r) => r.Patient === selectedPatient && r.Section === selectedSection && r.Illness === i
-			)
-			.map((r) => ({
-				variant: r['Illness Variant'],
-				agent: r['Common Causative Agents']
-			}));
-	}
-
-	function chooseVariant(v) {
-		selectedVariant = v;
 
 		finalRows = csv.filter(
 			(r) =>
 				r.Patient === selectedPatient &&
 				r.Section === selectedSection &&
-				r.Illness === selectedIllness &&
-				r['Illness Variant'] === v.variant &&
-				r['Common Causative Agents'] === v.agent
+				r.Infection === selectedInfection
 		);
 
-        // Remove Patient, Section, Section Remarks, Illness, Illness Variant, Common Causative Agents columns from finalRows
-        finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Illness, 'Illness Variant': __, 'Common Causative Agents': ___, ...rest }) => rest);
+		// Remove Patient, Section, Section Remarks, Infection, Infection Type, Common Causative Agents columns from finalRows
+        finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Infection, ...rest }) => rest);
 	}
 </script>
 
@@ -89,7 +68,7 @@
 	<h1 class="mb-4 text-3xl font-bold">Treatments</h1>
 
 	<!-- PATIENT SELECTION -->
-	<h2 class="mt-6 text-xl font-semibold">Choose Patient Type</h2>
+	<h2 class="mt-6 text-xl font-semibold">Choose Patient Group</h2>
 	<div class="mt-2 flex flex-wrap gap-3">
 		{#each patients as p}
 			<button
@@ -103,7 +82,7 @@
 
 	{#if selectedPatient}
 		<!-- SECTION -->
-		<h2 class="mt-6 text-xl font-semibold">Choose Clinical Category of Infection</h2>
+		<h2 class="mt-6 text-xl font-semibold">Choose Site of Infection</h2>
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each sections as s}
 				<button
@@ -123,34 +102,20 @@
                 <p>{sectionRemarks}</p>
             </div>
         {/if}
-		<!-- ILLNESS -->
-		<h2 class="mt-6 text-xl font-semibold">Choose Infectious disease conditions</h2>
+		<!-- Infection -->
+		<h2 class="mt-6 text-xl font-semibold">Choose Type of Infection</h2>
 		<div class="mt-2 flex flex-wrap gap-3">
-			{#each illnesses as ill}
+			{#each infections as inf}
 				<button
-					class="btn {selectedIllness === ill ? 'btn-secondary' : 'btn-outline'}"
-					on:click={() => chooseIllness(ill)}
+					class="btn {selectedInfection === inf ? 'btn-secondary' : 'btn-outline'}"
+					on:click={() => chooseInfection(inf)}
 				>
-					{ill}
+					{inf}
 				</button>
 			{/each}
 		</div>
 	{/if}
 
-	{#if selectedIllness}
-		<!-- VARIANTS -->
-		<h2 class="mt-6 text-xl font-semibold">Choose Illness Variant [Common Causative Agents]</h2>
-		<div class="mt-2 flex flex-col gap-3">
-			{#each variants as v}
-				<button
-					class="btn {selectedVariant === v? 'btn-secondary' : 'btn-outline'}"
-					on:click={() => chooseVariant(v)}
-				>
-                    <b>{v.variant || "No Variant"}</b>{v.agent ? `[Agent: ${v.agent}]` : ""}
-				</button>
-			{/each}
-		</div>
-	{/if}
 
 	{#if finalRows.length > 0}
 		<h2 class="mt-6 text-xl font-semibold">Treatment Details</h2>
