@@ -29,7 +29,25 @@
     <input id="my-drawer" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content">
         <!-- Page content here -->
-        <label for="my-drawer" class="drawer-button btn btn-accent">Dosage Calculator</label>
+        <label for="my-drawer" class="drawer-button btn btn-primary p-6">Dosage Calculator
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
+            <rect x="8" y="4" width="48" height="56" rx="6" fill="#374151"/>
+            <rect x="16" y="10" width="32" height="12" rx="2" fill="white"/>
+
+            <!-- Buttons background -->
+            <rect x="16" y="28" width="12" height="12" rx="2" fill="white"/>
+            <rect x="36" y="28" width="12" height="12" rx="2" fill="white"/>
+            <rect x="16" y="44" width="12" height="12" rx="2" fill="white"/>
+            <rect x="36" y="44" width="12" height="12" rx="2" fill="white"/>
+
+            <!-- Symbols -->
+            <text x="22" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">+</text>
+            <text x="42" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">−</text>
+            <text x="22" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">×</text>
+            <text x="42" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">÷</text>
+            </svg>
+        </label>
+
     </div>
     <div class="drawer-side">
         <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
@@ -51,7 +69,7 @@
         <input id="dosage" bind:value={dosage} type="number" placeholder="Enter dosage in mg/kg" class="input input-bordered" />
         </div>
 
-        <button on:click={calculateDosage} class="btn btn-accent w-full">Calculate</button>
+        <button on:click={calculateDosage} class="btn btn-primary w-full">Calculate</button>
 
         <div class="mt-4 p-3 bg-base-100 rounded border border-base-300">
         {#if result}
