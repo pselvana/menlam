@@ -59,7 +59,7 @@
 				r.Infection === selectedInfection
 		);
 
-		// Remove Patient, Section, Section Remarks, Infection, Infection Type, Common Causative Agents columns from finalRows
+		// Remove Patient, Section, Section Remarks, Infection columns from finalRows
         finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Infection, ...rest }) => rest);
 	}
 </script>
@@ -70,14 +70,24 @@
 	<!-- PATIENT SELECTION -->
 	<h2 class="mt-6 text-xl font-semibold">Choose Patient Group</h2>
 	<div class="mt-2 flex flex-wrap gap-3">
-		{#each patients as p}
-			<button
-				class="btn {selectedPatient === p ? 'btn-secondary' : 'btn-outline'}"
-				on:click={() => choosePatient(p)}
-			>
-				{p}
-			</button>
-		{/each}
+		<button
+			class="btn bg-blue-300"
+			on:click={() => choosePatient("Adult")}
+		>
+			Adult
+		</button>
+		<button
+			class="btn bg-green-300"
+			on:click={() => choosePatient("Neonates")}
+		>
+			Neonates
+		</button>
+		<button
+			class="btn bg-gray-300"
+			on:click={() => choosePatient("Paediatrics")}
+		>
+			Paediatrics
+		</button>
 	</div>
 
 	{#if selectedPatient}

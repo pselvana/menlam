@@ -1,4 +1,4 @@
-Patient,Section,Section Remarks,Infection,Infection Type,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
+Patient,Section,Section Remarks,Infection,Type,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
 Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
 Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,"For delayed/non-life
 threatening penicillin hypersensitivity",,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),

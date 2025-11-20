@@ -1,7 +1,7 @@
 <div class="prose p-6">
 	<h1>About</h1>
 	<p>
-		Menlam is intended for use by medical professionals in Bhutan 🇧🇹. Information is provided as a
+		Bhutan Antimicrobial Guidelines is intended for use by medical professionals in Bhutan 🇧🇹. Information is provided as a
 		reference guide and should not replace clinical judgement or national standards of care.
 	</p>
 
