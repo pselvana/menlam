@@ -1,28 +1,26 @@
 Patient,Section,Section Remarks,Infection,Type,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,"For delayed/non-life
-threatening penicillin hypersensitivity",,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,For immediate/life threatening penicillin hypersensitivity,,"Vancomycin 1g, IV, Q12H",,4 - 6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with delayed/non-life threatening penicillin hypersensitivity,,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with immediate/life threatening penicillin hypersensitivity,,"Vancomycin 1g, IV, Q12H",,4 - 6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4 - 6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
-Adult,BONE AND JOINT INFECTIONS,,Chronic osteomyelitis and osteomyelitis involving bone & joint prostheses,,"Staphylococcus aureus, Enterobacteriaceae, Pseudomonas","Empirical therapy is not usually recommended; treatment must be guided by the susceptibility of the organism isolated from aspirations, biopsies and prosthetic materials.",,6 weeks to 6 months depending on clinical response,
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,,Empiric Treatment (80% caused by Staphylococcus),"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,"For delayed/non-life
-threatening penicillin hypersensitivity",,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Chronic osteomyelitis and osteomyelitis involving bone & joint prostheses,General,"Staphylococcus aureus, Enterobacteriaceae, Pseudomonas","Empirical therapy is not usually recommended; treatment must be guided by the susceptibility of the organism isolated from aspirations, biopsies and prosthetic materials.",,6 weeks to 6 months depending on clinical response,
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,Empiric Treatment (80% caused by Staphylococcus),"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4 - 6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For delayed/non-life threatening penicillin hypersensitivity,,"Cephazolin 2g, IV, Q8H",,4 - 6 weeks (initially IV then oral depending on response),
 Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For immediate/life threatening penicillin hypersensitivity,,"Vancomycin 1g, IV, Q12H",,4 - 6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4 - 6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
-Adult,BONE AND JOINT INFECTIONS,,Gonococcal arthritis,,Neisseria gonorrhoeae,"Ceftriaxone 1g, IV, Q12H",,At least 7 days,
+Adult,BONE AND JOINT INFECTIONS,,Gonococcal arthritis,General,Neisseria gonorrhoeae,"Ceftriaxone 1g, IV, Q12H",,At least 7 days,
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,General,Staphlococcal,"Cephazolin, 1g, IV, Q6H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type I and II Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type III Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H PLUS Gentamicin 5mg/kg, IV, Q8H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,Open fracture with organic contamination,Staphlococcal,"Cephazolin 1g, IV, Q6H PLUS Gentamicin 5mg/kg, IV, Q8H PLUS Metronidazole 7.5mg/kg, IV, Q8H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,General,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
 OR
 Penicillin V 500mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",10 days,Antibiotics should be used only if there is strong suspicion of bacterial infections
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Corynebacterium diphtheriae,"Benzylpenicillin 1MU, IV, Q6H",,14 days,"Once patient is able to swallow, switch to penicillin V 250mg, PO, Q6H"
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,General,Corynebacterium diphtheriae,"Benzylpenicillin 1MU, IV, Q6H",,14 days,"Once patient is able to swallow, switch to penicillin V 250mg, PO, Q6H"
 Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Sinusitis,Acute,,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",5 days,"Most sinusitis does not require antibiotics except:
 1. Symptoms lasting longer than 7 days with purulent nasal discharge, sinus tenderness or maxillary toothache;
 2. Severe symptoms and high fever more than 39oC or higher at onset of illness and lasting for more than 3 days; and
@@ -33,12 +31,12 @@ Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Sinusitis,Chronic (more than 12 weeks)
 3. Worsening symptoms after initial improvement."
 Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Otitis media,Acute,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H","Erythromycin 500mg, PO, Q6H",5 days,
 Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Otitis media,Chronic,Decide therapy based on culture and sensitivity reports,,,,
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
+Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,General,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
 OR
 Chloramphenicol 500mg, IV, Q6H","Cefotaxime 1g, IV, Q8H",5-7 days,It is a medical emergency; Avoid throat examination; Be prepared for emergency intubation.
-Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
+Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,General,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
 PLUS
 Chloramphenicol 25mg/kg, IV, Q6H","Ceftriaxone 100mg/kg, IV, Q24H ",5-7 days,It is a medical emergency; Avoid throat examination
-Neonates,Not specified,,Impetigo neonatorum,,Methicillin-sensitive Staphylococcus aureus (MSSA),"Cloxacillin, IM/IV",,5 days,
-Neonates,Not specified,,Impetigo neonatorum,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, IV",,5 days,
-Neonates,Not specified,,Impetigo neonatorum,,Group B streptococcus,"Benzylpenicillin, IV","Ampicillin, IM/IV",7 - 14 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Methicillin-sensitive Staphylococcus aureus (MSSA),"Cloxacillin, IM/IV",,5 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, IV",,5 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Group B streptococcus,"Benzylpenicillin, IV","Ampicillin, IM/IV",7 - 14 days,

@@ -77,16 +77,16 @@
 			Adult
 		</button>
 		<button
-			class="btn bg-green-300"
-			on:click={() => choosePatient("Neonates")}
-		>
-			Neonates
-		</button>
-		<button
 			class="btn bg-gray-300"
 			on:click={() => choosePatient("Paediatrics")}
 		>
 			Paediatrics
+		</button>
+		<button
+			class="btn bg-green-300"
+			on:click={() => choosePatient("Neonates")}
+		>
+			Neonates
 		</button>
 	</div>
 
@@ -108,7 +108,7 @@
 	{#if selectedSection}
         {#if sectionRemarks}
             <div class="mt-4 rounded border border-base-300 bg-base-200 p-4">
-                <h3 class="mb-2 text-lg font-semibold">Category Remarks:</h3>
+                <h3 class="mb-2 text-lg font-semibold">Section Remarks:</h3>
                 <p>{sectionRemarks}</p>
             </div>
         {/if}
