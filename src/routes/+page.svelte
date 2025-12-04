@@ -1,9 +1,10 @@
-<div class="hero min-h-screen bg-base-100">
+<div class="hero h-auto py-32 bg-base-100">
 	<div class="hero-content text-center">
 		<div class="max-w-xl p-6">
 			<h1 class="mb-6 text-5xl font-bold">Bhutan Antimicrobial Guidelines</h1>
 			<p class="mb-6 text-lg">
 				A trusted medical reference for Bhutanese doctors.<br />
+				Currently in <b>PILOT</b> phase for feedback and improvements.
 			</p>
 			<span>
 				<span class="justify-items-center">

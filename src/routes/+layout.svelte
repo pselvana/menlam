@@ -13,3 +13,13 @@
 </div>
 
 <slot />
+
+<div class="footer footer-center bg-base-200 p-6 mt-12">
+	<div>
+		<p>Bhutan Antimicrobial Guidelines. Currently in <b>PILOT</b></p>
+		<span>
+			Please provide feedback or report issues using this 
+			<a href="https://forms.gle/Ks47wkzBgDkZpwcVA" class="link"><div class="btn btn-accent btn-xs">Feedback Form</div></a>
+		</span>
+	</div>
+</div>

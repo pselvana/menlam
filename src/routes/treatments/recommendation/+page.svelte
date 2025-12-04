@@ -77,16 +77,14 @@
 			Adult
 		</button>
 		<button
-			class="btn bg-gray-300"
-			on:click={() => choosePatient("Paediatrics")}
+			class="btn bg-gray-300 btn-disabled"
 		>
-			Paediatrics
+			Paediatrics (coming soon)
 		</button>
 		<button
-			class="btn bg-green-300"
-			on:click={() => choosePatient("Neonates")}
+			class="btn bg-green-300 btn-disabled"
 		>
-			Neonates
+			Neonates (coming soon)
 		</button>
 	</div>
 
