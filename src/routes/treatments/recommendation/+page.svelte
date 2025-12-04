@@ -133,7 +133,7 @@
 		<DosageCalculator />
 
 		<div class="overflow-x-auto">
-			<table class="table mt-4 w-full table-zebra">
+			<table class="table mt-4 w-full table-zebra table-pin-rows border border-base-content/5 bg-base-100 rounded-box">
 				<thead>
 					<tr>
 						{#each Object.keys(finalRows[0]) as header}
@@ -143,7 +143,7 @@
 				</thead>
 				<tbody>
 					{#each finalRows as row}
-						<tr>
+						<tr class="hover:bg-base-300">
 							{#each Object.values(row) as cell}
 								<td class="max-w-xs whitespace-pre-line">
 									{cell}

@@ -90,22 +90,79 @@ PLUS
 Metronidazole 500mg, IV or 400mg, PO, Q8H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Metronidazole 500mg, IV or 400mg, PO, Q8H",4-6 weeks (IV plus oral),Drainage may be required along with antimicrobial therapy for abscess size 6-8cm or large
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,,,,,,,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
+PLUS 
+Metronidazole 500mg, IV, Q8H","Ceftriaxone 1g, IV, Q12H
+PLUS
+Metronidazole 500mg, IV, Q8H",7 days,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftriaxone 1g, IV, Q12H
+PLUS
+Gentamicin 5mg/kg, IV, Q24H
+PLUS
+Metronidazole 500mg, IV, Q8H","Piperacillin/tazobactam 4.5g, IV, Q6H",7 days,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftazidime 2g, IV, Q8H
+PLUS
+Vancomycin 15mg/kg, IV, Q12H
+PLUS
+Metronidazole 500mg, IV, Q8H","Piperacillin/tazobactam 4.5g, IV, Q6H
+PLUS
+Vancomycin 15mg/kg, IV, Q12H
+",7 days,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Piperacillin/tazobactam 4.5g, IV, Q6H
+PLUS
+Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H
+PLUS
+Amikacin 15mg/kg, IV, Q24H",,"If MRSA suspected/isolated, add vancomycin 15mg/kg, IV, Q12H"
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus, anaerobes","Ampicillin 1g, IV, Q6H
+PLUS
+Metronidazole 500mg, IV, Q8H","Ceftriaxone 1g, IV, Q12H
+PLUS
+Metronidazole 500mg, IV or 400mg, PO, Q8H",2-4 weeks,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftriaxone 1g, IV, Q12H
+PLUS
+Gentamicin 5mg/kg, IV, Q24H","Piperacillin/tazobactam 4.5g, IV, Q6H",7 days,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftazidime 2g, IV, Q8H
+PLUS
+Vancomycin 15mg/kg, IV, Q12H","Piperacillin/tazobactam 4.5g, IV, Q6H 
+PLUS 
+Vancomycin 15mg/kg, IV, Q12H",7 days,
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Piperacillin/tazobactam 4.5g, IV, Q6H 
+PLUS 
+Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H
+PLUS
+Amikacin 15mg/kg, IV, Q24H",7 days,"If MRSA suspected /isolated, add vancomycin 15mg/kg, IV, Q12H"
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis (infective exacerbation),Outpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Amoxicillin 1g, PO, Q8H
+PLUS
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Amoxicillin 1g, PO, Q8H
+PLUS
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",14 days,Sputum culture should be taken
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis (infective exacerbation),Inpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Ampicillin 1g, IV, Q6H
+PLUS
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Ciprofloxacin 500mg, IV, Q12H
+OR
+Ceftriaxone 1g, IV, Q12H
+PLUS 
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",,
 Adult,URINARY TRACT INFECTIONS,,Uncomplicated Cystitis in women,,"Escherichia coli , Klebsiella spp., Staphylococcus saprophyticus, Enterococcus faecalis","Nitrofurantoin 100mg, PO, Q6H","Cotrimoxazole 960mg, PO, Q12H for 3 days
 OR
 Cephalexin 500mg, PO, Q12H",7 days,
 Adult,URINARY TRACT INFECTIONS,,UTI in men,,,"Cotrimoxazole 960mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",7 days,"If prostate involved, extend to 14 days."
 Adult,URINARY TRACT INFECTIONS,,Acute Pyelonephritis,Uncomplicated,"Coliforms, Pseudomonas","Ciprofloxacin 500mg, PO, Q12H",,10 days,
 Adult,URINARY TRACT INFECTIONS,,Acute Pyelonephritis,Complicated,"Coliforms, Pseudomonas","Ceftriaxone 1g, IV, Q24H","Piperacillin/tazobactam 4.5g, IV, Q6H",7-10 days,
+Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Mild to moderate,Usual UTI causing pathogens and occasionally STI causing organisms,"Cotrimoxazole 960mg, PO, Q12H ",,14 days,
+Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Severe case,Usual UTI causing pathogens and occasionally STI causing organisms,"Ampicillin 2g, IV, Q6H
+PLUS
+Gentamicin 5mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H",14 days,Can change to oral after substantial clinical improvement.
+Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Chronic Bacterial Prostatitis ,Usual UTI causing pathogens and occasionally STI causing organisms,"Cotrimoxazole 960mg, PO, Q12H
+OR
+Norfloxacin 400mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H
+OR
+Doxycycline 100mg, PO, Q12H",4 weeks,
+Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Epididymo-orchitis,"Chlamydia, trachomatis, Neisseria gonorrhoeae, Escherichia coli","Ceftriaxone 250mg, IM, STAT
+PLUS
+Doxycycline 100mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H
+PLUS
+Doxycycline 100mg, PO, Q12H",7 days,
 Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,General,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
 PLUS
 Chloramphenicol 25mg/kg, IV, Q6H","Ceftriaxone 100mg/kg, IV, Q24H ",5-7 days,It is a medical emergency; Avoid throat examination

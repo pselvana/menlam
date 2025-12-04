@@ -278,7 +278,7 @@
         <!-- Table -->
         {#if filteredData.length > 0}
           <div class="overflow-x-auto">
-            <table class="table table-zebra table-pin-rows table-sm">
+            <table class="table table-zebra table-pin-rows table-sm border border-base-content/5 bg-base-100 rounded-box">
               <thead>
                 <tr>
                   {#each headers as header, idx}
