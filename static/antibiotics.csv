@@ -1,27 +1,35 @@
 Patient,Section,Section Remarks,Infection,Type,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
 Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with delayed/non-life threatening penicillin hypersensitivity,,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with immediate/life threatening penicillin hypersensitivity,,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
 Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4-6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
 Adult,BONE AND JOINT INFECTIONS,,Chronic osteomyelitis and osteomyelitis involving bone & joint prostheses,General,"Staphylococcus aureus, Enterobacteriaceae, Pseudomonas","Empirical therapy is not usually recommended; treatment must be guided by the susceptibility of the organism isolated from aspirations, biopsies and prosthetic materials.",,6 weeks to 6 months depending on clinical response,
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,Empiric Treatment (80% caused by Staphylococcus),"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For delayed/non-life threatening penicillin hypersensitivity,,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For immediate/life threatening penicillin hypersensitivity,,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
 Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4-6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
 Adult,BONE AND JOINT INFECTIONS,,Gonococcal arthritis,General,Neisseria gonorrhoeae,"Ceftriaxone 1g, IV, Q12H",,At least 7 days,
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,General,Staphlococcal,"Cephazolin, 1g, IV, Q6H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type I and II Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
+Adult,BONE AND JOINT INFECTIONS,,Open fracture,General,Staphlococcal,"Cephazolin, 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
+OR 
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
+Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type I and II Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
+OR 
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type III Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H
 PLUS
-Gentamicin 5mg/kg, IV, Q8H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
+Gentamicin 5mg/kg, IV, Q8H","Benzylpenicillin 3-4 MU, IM 
+OR 
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
 Adult,BONE AND JOINT INFECTIONS,,Open fracture,Open fracture with organic contamination,Staphlococcal,"Cephazolin 1g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q8H
-PLUS Metronidazole 7.5mg/kg, IV, Q8H",,"5 days; longer, if infection is established","Debridement and irrigation of the wound has to be done before referral; Where cephazolin are not available, a dose of Benzylpenicillin 3-4 MU, IM OR Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV can be given STAT and refer to specialist"
+PLUS Metronidazole 7.5mg/kg, IV, Q8H","Benzylpenicillin 3-4 MU, IM 
+OR 
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
 Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,General,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
 OR
 Penicillin V 500mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",10 days,Antibiotics should be used only if there is strong suspicion of bacterial infections
@@ -136,7 +144,7 @@ PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Amoxicillin 1g, PO, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",14 days,Sputum culture should be taken
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis (infective exacerbation),Inpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Ampicillin 1g, IV, Q6H
+Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis,Inpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Ampicillin 1g, IV, Q6H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Ciprofloxacin 500mg, IV, Q12H
 OR
@@ -220,7 +228,7 @@ Metronidazole 7.5mg/kg, IV, Q8H",5-7 days,
 Adult,INTRA-ABDOMINAL,,Pancreatitis: Complicated (with abscess/necrosis),,,"Piperacillin/tazobactam 4.5g, IV, Q6H","Imipenem 1g, IV, 8QH",,
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Initial empirical therapy,"Streptococcus pneumoniae, Haemophilus influenzae, Neisseria meningitidis","Benzylpenicillin 4MU, IV, Q4H
 PLUS
-Gentamicin 3mg, IV, Q24H","Cefotaxime 2g, IV, Q6H
+Gentamicin 3mg/kg, IV, Q24H","Cefotaxime 2g, IV, Q6H
 OR
 Ceftriaxone 1g, IV, Q12H
 PLUS
@@ -231,7 +239,7 @@ more than 50 years",10-14 days,"Adjunctive therapy with dexamethasone 10mg, IV, 
 continued for 4 days
 "
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Organism specific therapy,Streptococcus pneumoniae,"Benzylpenicillin 4 MU, IV, Q4H","Ceftriaxone 1g, IV, Q12H",10–14 days,"If isolate resistant to penicillin, patient may need alternative regimen such as 3rd-generation cephalosporins and/or vancomycin"
-Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Organism specific therapy,Neisseria meningitidis,"Benzylpenicillin 4 MU, IV, Q4H","Ceftriaxone 1g, IV, Q12H",7 days,"Note: Close contacts and patients treated with penicillins should receive prophylaxis with rifampicin 600 mg PO, Q12H for 2 days OR ciprofloxacin 500 mg, PO STAT OR ceftriaxone 250 mg, IM STAT"
+Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Organism specific therapy,Neisseria meningitidis,"Benzylpenicillin 4 MU, IV, Q4H","Ceftriaxone 1g, IV, Q12H",7 days,"Close contacts and patients treated with penicillins should receive prophylaxis with rifampicin 600 mg PO, Q12H for 2 days OR ciprofloxacin 500 mg, PO STAT OR ceftriaxone 250 mg, IM STAT"
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Organism specific therapy,Haemophilus influenzae,"Ampicillin 2g, IV, Q4H","Cefotaxime 2g, IV, Q6H
 OR
 Ceftriaxone 1g, IV, Q12H",7 days,
@@ -248,18 +256,18 @@ Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,"Due to post-neurosurgery, p
 PLUS 
 Ceftazidime 2g, IV, Q8H","Vancomycin 15mg/kg, IV, Q12H
 PLUS
-Meropenem 2g, IV, Q8H","Depend on surgical 
+Meropenem 2g, IV, Q8H","Depends on surgical 
 intervention and clinical 
 response",Monitor renal function in patients receiving vancomycin and/or meropenem
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Cryptococcal meningitis,"Cryptococcus neoformans (especially in immunocompromised patients including HIV/AIDS)","Amphotericin B liposomal 3 - 4mg/kg, IV, Q24H",,6 - 8 weeks followed by long-term suppressive therapy with oral fluconazole especially in AIDS,Needs special administration
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Encephalitis,,Herpes simplex,"Acyclovir, 10mg/kg, IV, Q8H",,14-21 days,Administered as infusion over 1 hour
-Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Brain Abscess,,"Polymicrobial including Streptococcus anginosus, anaerobic bacteria, Staphylococcus aureus and gram-negatives
+Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Brain Abscess,General,"Polymicrobial including Streptococcus anginosus, anaerobic bacteria, Staphylococcus aureus and gram-negatives
 ","Benzylpenicillin 4MU, IV, Q4H
 PLUS
 Metronidazole 1g, IV as loading dose; and then 500mg, IV, Q8H","Ceftriaxone, 1g, IV, Q12H
 PLUS
 Metronidazole 1g, IV as loading dose; and then 500mg, IV, Q8H","4 to 8 weeks (Duration of treatment depends upon surgical intervention, clinical response and radiological evidence of resolution)",Early surgical consultation is essential
-Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Neurocysticercosis,,Taenia solium,"Albendazole 400mg, PO, Q12H",,15-30 days,"Prednisolone 1mg/kg, PO one day prior to starting albendazole and continue for 10 days"
+Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Neurocysticercosis,General,Taenia solium,"Albendazole 400mg, PO, Q12H",,15-30 days,"Prednisolone 1mg/kg, PO one day prior to starting albendazole and continue for 10 days"
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Soft Tissue Infection,Skin surface infection,,"Cloxacillin 2g, IV, Q6H",Culture based,5-7 days,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Soft Tissue Infection,Deep skin infection,,"Ampicillin 25mg/kg, IV, Q6H
 PLUS
@@ -326,23 +334,23 @@ Cloxacillin 2g, IV, Q4H","Benzylpenicillin 3MU, IV, Q4H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H
 PLUS
-Cloxacillin 2g, IV, Q4H",4-6 weeks; Stop gentamicin after 14 days,Take 4 (10ml) samples 15 minutes apart; 3 samples (ESC 2015 and AHA guidelines)
+Cloxacillin 2g, IV, Q4H",4-6 weeks; Stop gentamicin after 2 weeks,Take 4 (10ml) samples 15 minutes apart; 3 samples (ESC 2015 and AHA guidelines)
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Native valve endocarditis,Streptococcal endocarditis,Viridans streptococci,"Benzylpenicillin 4MU, IV, Q4H
 OR
 Amoxicillin 25-50mg/kg, PO, Q4H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H
 PLUS
-Gentamicin 3mg/kg, IV, Q24H",2-4 weeks,Stop gentamicin after 2 weeks
+Gentamicin 3mg/kg, IV, Q24H",2-4 weeks; Stop gentamicin after 2 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Native valve endocarditis,Penicillin resistant,Viridans streptococci,"Ceftriaxone 1g, IV, Q12H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H","Vancomycin 15mg/kg, IV, Q12H
 PLUS
 Gentamicin 3mg/kg, IV, 
-Q24H",4-6 weeks,Stop gentamicin after 2 weeks
+Q24H",4-6 weeks; Stop gentamicin after 2 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Enterococcal endocarditis,For penicillin susceptible isolates,"Enterococcus faecalis, Enterococcus faecium","Ampicillin 2g, IV, Q4H
 PLUS
-Gentamicin 3mg/kg, IV, Q24H",,4 - 6 weeks; stop gentamicin after 2 weeks,
+Gentamicin 3mg/kg, IV, Q24H",,4 - 6 weeks; Stop gentamicin after 2 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Enterococcal endocarditis,For penicillin resistant isolates,"Enterococcus faecalis, Enterococcus faecium","Vancomycin 15mg/kg, IV, Q12H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H",,6 weeks,
@@ -353,12 +361,21 @@ Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Left-sided,M
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Left-sided,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 15mg/kg, IV, Q12H",,6 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Right-sided,Methicillin-susceptible Staphylococcus aureus (MSSA),"Cloxacillin 2g IV, Q4H",,2 weeks,Usually seen in IV Drug user
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Right-sided,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 15mg/kg, IV, Q12H",,6 weeks,
-Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Endocarditis caused by the HACEK group,,"Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK group)","Ceftriaxone, 1g, IV, Q12H",,4 weeks,
-Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Prosthetic valve endocarditis (valve replacement less than 1 year),,"Staphylococcus epidermidis, Staphylococcus aureus, rarely enterobacteriaceae, diphtheroids","Vancomycin 15mg/kg IV, Q12H
+Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Endocarditis caused by the HACEK group,General,"Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK group)","Ceftriaxone, 1g, IV, Q12H",,4 weeks,
+Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Prosthetic valve endocarditis,Valve replacement less than 1 year,"Staphylococcus epidermidis, Staphylococcus aureus, rarely enterobacteriaceae, diphtheroids","Vancomycin 15mg/kg IV, Q12H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H
 PLUS
-Rifampicin 300mg, PO, Q8H",,6 - 8 weeks; Stop gentamicin after 2 weeks,"Rifampicin should be started after 3 days of starting vancomycin; If valve replacement is more than 1 year, treat as empirical regime as above"
+Rifampicin 300mg, PO, Q8H",,6 - 8 weeks; Stop gentamicin after 2 weeks,Rifampicin should be started after 3 days of starting vancomycin
+Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Prosthetic valve endocarditis ,Valve replacement more than 1 year,"Streptococcus, Enterococcus, Staphylococcus aureus, Coagulase Negative Staphylococci (CoNS)","Ampicillin 2g, IV, Q4H
+PLUS
+Gentamicin 3mg/kg, IV, Q24H
+PLUS
+Cloxacillin 2g, IV, Q4H","Benzylpenicillin 3MU, IV, Q4H
+PLUS
+Gentamicin 3mg/kg, IV, Q24H
+PLUS
+Cloxacillin 2g, IV, Q4H",4-6 weeks; Stop gentamicin after 2 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Blood culture-negative infective endocarditis,,Brucella spp.,"Doxycycline 200mg, PO, Q24H
 PLUS
 Cotrimoxazole 960mg, PO, Q12H
@@ -369,7 +386,7 @@ PLUS
 Hydroxychloroquine 200-600mg, PO, Q24H",,"> 18 months",
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Blood culture-negative infective endocarditis,,Bartonella spp.,"Doxycycline 100mg, PO, Q12H
 PLUS
-Gentamycin 3mg, IV, Q24H",,4 weeks,Stop gentamycin after 2 weeks
+Gentamycin 3mg/kg, IV, Q24H",,4 weeks; stop gentamycin after 2 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Blood culture-negative infective endocarditis,,Legionella spp.,"Levofloxacin 500mg, PO, Q12H
 PLUS
 Rifampicin 300-1200mg, PO, Q24H",,≥ 6 weeks,
@@ -429,8 +446,7 @@ Erythromycin 500mg, PO, Q6H",,7 days,
 Adult,GENITAL TRACT INFECTIONS,,Chanchroid,,Haemophilus ducreyi,"Erythromycin 500mg, PO, Q6H for 7 days","Ceftriaxone 250mg, IM, STAT
 OR
 Ciprofloxacin 500mg, PO, Q12H for 3 days",,
-Adult,GENITAL TRACT INFECTIONS,,"Donovanosis 
-(Granuloma Inguinale)",,Klebsiella granulomatis,"Doxycycline 100mg, PO, Q12H","Erythromycin 500mg, PO, Q6H
+Adult,GENITAL TRACT INFECTIONS,,Donovanosis (Granuloma Inguinale),,Klebsiella granulomatis,"Doxycycline 100mg, PO, Q12H","Erythromycin 500mg, PO, Q6H
 OR
 Cotrimoxazole 960mg, PO, Q12H",All for minimum 3 weeks,
 Adult,GENITAL TRACT INFECTIONS,,Syphilis,Early Syphilis,Treponema pallidum,"Benzathine benzylpenicillin 2.4MU, IM, STAT, divided equally at 2 different sites","Procaine penicillin 1.2MU, IM, Q24H ",10 days,"Primary, secondary or early latent syphilis of not more than 2 years duration"
@@ -481,16 +497,16 @@ Adult,ORO-DENTAL INFECTIONS,,Antibiotic prophylaxis against infective endocardit
 OR
 Cephalexin 2g, PO, STAT","30-60 minutes before 
 procedure",
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Cholera,,Vibrio cholerae,"Doxycycline 300mg, PO, STAT","Ciprofloxacin 1g, PO, STAT",,Stool culture should be done; Fluid replacement is the mainstay therapy.
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Cholera,,Vibrio cholerae,"Doxycycline 300mg, PO, STAT","Ciprofloxacin 1g, PO, STAT",Single dose,Stool culture should be done; Fluid replacement is the mainstay therapy.
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Cholera,In pregnancy,Vibrio cholerae,"Erythromycin 12.5mg/kg, PO, Q6H",,3 days,Stool culture should be done; Fluid replacement is the mainstay therapy.
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Diverticulitis (Severe),,"Escherichia coli, Coliforms, Enterococci, Anaerobes","Ampicillin 1g, IV, Q6H
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Diverticulitis,Severe,"Escherichia coli, Coliforms, Enterococci, Anaerobes","Ampicillin 1g, IV, Q6H
 PLUS
 Gentamicin 7.5mg/kg, IV, Q24H
 PLUS
 Metronidazole 400mg, PO, Q12H","Ciprofloxacin 400mg, IV, Q12H
 PLUS
 Metronidazole 400mg, PO, Q12H",5-7 days,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Eradication of Helicobacter pylor,,Helicobacter pylori,"Omeprazole 20mg, PO, Q12H
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Eradication of Helicobacter pylori,General,Helicobacter pylori,"Omeprazole 20mg, PO, Q12H
 PLUS
 Clarithromycin 500mg, PO, Q12H
 PLUS
@@ -499,7 +515,8 @@ PLUS
 Metronidazole 400mg, PO, Q12H
 PLUS
 Amoxicillin 1g, PO, Q12H",14 days,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,"Mild (Non dysenteric)",,"Norfloxacin 400mg, PO, STAT",,,Stool culture to be done; fluid replacement is main component of therapy
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,"Mild (Non-dysenteric)
+",,"Norfloxacin 400mg, PO, STAT",,Single dose,Stool culture to be done; fluid replacement is main component of therapy
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Severe (Dysenteric),,"Norfloxacin 400mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",3 days,Stool culture to be done; fluid replacement is main component of therapy
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,"Yersinia, Escherichia coli","Cotrimoxazole 960mg, PO, Q12H","Norfloxacin 400mg, PO, Q12H
 OR
@@ -520,4 +537,4 @@ Adult,GASTROINTESTINAL TRACT INFECTIONS,,Peritonitis: Primary (Spontaneous bacte
 OR
 Ciprofloxacin 500mg, PO, Q12H",5 days,For cirrhotic patient with upper GI bleed
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Peritonitis: Primary (Spontaneous bacterial peritonitis),Secondary prophylaxis ,,"Norfloxacin 400mg, PO, Q12H","Cotrimoxazole 960mg, PO, Q24H",Lifelong,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Enteric Fever,,"Salmonella typhi, Salmonella paratyphi","Ampicillin 1g, IV, Q6H","Ceftriaxone 1g, IV, Q12H",10-14 days,Culture and sensitivity is essential
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Enteric Fever,General,"Salmonella typhi, Salmonella paratyphi","Ampicillin 1g, IV, Q6H","Ceftriaxone 1g, IV, Q12H",10-14 days,Culture and sensitivity is essential
