@@ -24,7 +24,7 @@
 			<span>
 				<div class="flex items-center justify-center gap-2 px-3 rounded-full bg-warning text-warning-content font-bold shadow">
 				<span class="text-lg">⚠️</span>
-				Pilot
+				Pilot: This site is currently in pilot phase for feedback and improvements.
 				</div>
 			</span>
 			
