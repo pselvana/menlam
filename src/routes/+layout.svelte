@@ -2,24 +2,34 @@
 	import '../app.css';
 </script>
 
-<div class="navbar bg-base-200 px-6">
-	<div class="flex-1 text-xl font-bold"><a href="/">💊 Bhutan Antimicrobial Guidelines</a></div>
-	<div class="flex gap-6">
-		<a href="/" class="link">Home</a>
-		<a href="/treatments" class="link">Treatment Recommendations</a>
-		<a href="/about" class="link">About</a>
-		<a href="/terms" class="link">Terms</a>
-	</div>
-</div>
+<div class="min-h-screen flex flex-col">
 
-<slot />
-
-<div class="footer footer-center bg-base-200 p-6 mt-12">
-	<div>
-		<p>Bhutan Antimicrobial Guidelines. Currently in <b>PILOT</b></p>
-		<span>
-			Please provide feedback or report issues using this 
-			<a href="https://forms.gle/Ks47wkzBgDkZpwcVA" class="link"><div class="btn btn-accent btn-xs">Feedback Form</div></a>
-		</span>
+	<div class="navbar bg-base-200 px-6">
+		<div class="flex-1 text-xl font-bold"><a href="/">💊 Bhutan Infectious Disease Guidelines</a></div>
+		<div class="flex gap-6">
+			<a href="/treatments" class="link">Treatment Recommendations</a>
+			<a href="/about" class="link">About</a>
+			<a href="/terms" class="link">Terms</a>
+			<div class="btn btn-primary btn-xs">Feedback Form</div>
+		</div>
 	</div>
+
+	<!-- Main content expands -->
+	<div class="flex-1">
+		<slot />
+	</div>
+
+	<!-- Footer pushed to bottom -->
+	<div class="footer footer-center bg-base-200 p-2 mt-auto">
+		<div>
+			<span>
+				<div class="flex items-center justify-center gap-2 px-3 rounded-full bg-warning text-warning-content font-bold shadow">
+				<span class="text-lg">⚠️</span>
+				Pilot
+				</div>
+			</span>
+			
+		</div>
+	</div>
+
 </div>

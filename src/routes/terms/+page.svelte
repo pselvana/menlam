@@ -1,7 +1,7 @@
 <div class="prose p-6">
 	<h1>Terms of Use</h1>
 	<p>
-		Bhutan Antimicrobial Guidelines is intended for use by medical professionals in Bhutan. Information is provided as a
+		Bhutan Infectious Disease Guidelines is intended for use by medical professionals in Bhutan. Information is provided as a
 		reference guide and should not replace clinical judgement or national standards of care.
 	</p>
 

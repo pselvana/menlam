@@ -94,7 +94,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each sections as s}
 				<button
-					class="btn {selectedSection === s ? 'btn-secondary' : 'btn-outline'}"
+					class="btn {selectedSection === s ? 'btn-secondary' : 'btn-outline bg-blue-100'}"
 					on:click={() => chooseSection(s)}
 				>
 					{s}
@@ -115,7 +115,7 @@
 		<div class="mt-2 flex flex-wrap gap-3">
 			{#each infections as inf}
 				<button
-					class="btn {selectedInfection === inf ? 'btn-secondary' : 'btn-outline'}"
+					class="btn {selectedInfection === inf ? 'btn-secondary' : 'btn-outline  bg-blue-200'}"
 					on:click={() => chooseInfection(inf)}
 				>
 					{inf}
