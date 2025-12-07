@@ -35,6 +35,8 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
-		"papaparse": "^5.5.3"
+		"papaparse": "^5.5.3",
+		"posthog-js": "^1.302.2",
+		"posthog-node": "^5.17.2"
 	}
 }
