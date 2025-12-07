@@ -8,6 +8,7 @@
 	let sections = [];
 	let infections = [];
     let sectionRemarks = null;
+	let infectionRemarks = null;
 	let selectedPatient = null;
 	let selectedSection = null;
 	let selectedInfection = null;
@@ -25,6 +26,7 @@
 		selectedPatient = p;
 		selectedSection = null;
         sectionRemarks = null;
+		infectionRemarks = null;
 		selectedInfection = null;
 		finalRows = [];
 
@@ -51,6 +53,7 @@
 
 		selectedInfection = i;
 		finalRows = [];
+		infectionRemarks = null;
 
 		finalRows = csv.filter(
 			(r) =>
@@ -60,7 +63,17 @@
 		);
 
 		// Remove Patient, Section, Section Remarks, Infection columns from finalRows
-        finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Infection, ...rest }) => rest);
+        finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Infection, 'Infection Remarks': __, ...rest }) => rest);
+
+		// Store infection remarks
+		const remarkRow = csv.find(
+			(r) =>
+				r.Patient === selectedPatient &&
+				r.Section === selectedSection &&
+				r.Infection === selectedInfection &&
+				r['Infection Remarks']
+		);
+		infectionRemarks = remarkRow ? remarkRow['Infection Remarks'] : "";
 	}
 </script>
 
@@ -126,6 +139,12 @@
 
 
 	{#if finalRows.length > 0}
+		{#if infectionRemarks}
+			<div class="mt-4 rounded border border-base-300 bg-base-200 p-4">
+				<h3 class="mb-2 text-lg font-semibold">Infection Remarks:</h3>
+				<p>{infectionRemarks}</p>
+			</div>
+		{/if}
 		<h2 class="mt-6 text-xl font-semibold">Treatment Details</h2>
 
 		<DosageCalculator />
