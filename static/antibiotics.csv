@@ -1,114 +1,114 @@
 Patient,Section,Section Remarks,Infection,Type,Common Causative Agents,Recommended Antibiotic Therapy,Alternative Antibiotic Therapy,Recommended Duration of Treatment,Remarks
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General with immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
-Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,Delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,Immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Acute Osteomyelitis,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4-6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
-Adult,BONE AND JOINT INFECTIONS,,Chronic osteomyelitis and osteomyelitis involving bone & joint prostheses,General,"Staphylococcus aureus, Enterobacteriaceae, Pseudomonas","Empirical therapy is not usually recommended; treatment must be guided by the susceptibility of the organism isolated from aspirations, biopsies and prosthetic materials.",,6 weeks to 6 months depending on clinical response,
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,For immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
-Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
+Adult,BONE AND JOINT INFECTIONS,,Chronic osteomyelitis and osteomyelitis involving bone & joint prostheses,,"Staphylococcus aureus, Enterobacteriaceae, Pseudomonas","Empirical therapy is not usually recommended; treatment must be guided by the susceptibility of the organism isolated from aspirations, biopsies and prosthetic materials.",,6 weeks to 6 months depending on clinical response,
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,,80% caused by Staphylococcus,"Cloxacillin 2g, IV, Q6H","Cephazolin 2g, IV, Q8H",4-6 weeks (initially IV then oral depending on response),"Obtain blood, pus and bone culture and sensitivity"
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,Delayed/non-life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Cephazolin 2g, IV, Q8H",,4-6 weeks (initially IV then oral depending on response),
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,Immediate/life threatening penicillin hypersensitivity,80% caused by Staphylococcus,"Vancomycin 1g, IV, Q12H",,4-6 weeks (initially IV then oral depending on response),"Vancomycin should be given as slow IV infusion, at least over an hour"
+Adult,BONE AND JOINT INFECTIONS,,Septic arthritis,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 1g, IV, Q12H","Cotrimoxazole 960mg, PO, Q12H
 PLUS
 Rifampicin 600mg PO, Q24H",4-6 weeks (initially IV then oral depending on response),Therapy should be based on proper culture and sensitivity report
-Adult,BONE AND JOINT INFECTIONS,,Gonococcal arthritis,General,Neisseria gonorrhoeae,"Ceftriaxone 1g, IV, Q12H",,At least 7 days,
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,General,Staphlococcal,"Cephazolin, 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
+Adult,BONE AND JOINT INFECTIONS,,Gonococcal arthritis,,Neisseria gonorrhoeae,"Ceftriaxone 1g, IV, Q12H",,At least 7 days,
+Adult,BONE AND JOINT INFECTIONS,Debridement and irrigation of the wound has to be done before referral to specialist,Open fracture,,Staphlococcal,"Cephazolin, 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
 OR 
-[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type I and II Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",
+Adult,BONE AND JOINT INFECTIONS,Debridement and irrigation of the wound has to be done before referral to specialist,Open fracture,Type I and II Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H","Benzylpenicillin 3-4 MU, IM 
 OR 
-[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,Type III Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",
+Adult,BONE AND JOINT INFECTIONS,Debridement and irrigation of the wound has to be done before referral to specialist,Open fracture,Type III Open fracture,Staphlococcal,"Cephazolin 1g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q8H","Benzylpenicillin 3-4 MU, IM 
 OR 
-[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
-Adult,BONE AND JOINT INFECTIONS,,Open fracture,Open fracture with organic contamination,Staphlococcal,"Cephazolin 1g, IV, Q6H
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",
+Adult,BONE AND JOINT INFECTIONS,Debridement and irrigation of the wound has to be done before referral to specialist,Open fracture,Open fracture with organic contamination,Staphlococcal,"Cephazolin 1g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q8H
 PLUS Metronidazole 7.5mg/kg, IV, Q8H","Benzylpenicillin 3-4 MU, IM 
 OR 
-[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",Debridement and irrigation of the wound has to be done before referral to specialist
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,General,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
+[Ampicillin 1g, IV PLUS Gentamicin 5mg/kg, IV]","5 days; longer, if infection is established",
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections. Antibiotics should be used only if there is strong suspicion of bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Streptococcus pyogenes,"Amoxicillin 500mg, PO, Q8H
 OR
-Penicillin V 500mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",10 days,Antibiotics should be used only if there is strong suspicion of bacterial infections
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,General,Corynebacterium diphtheriae,"Benzylpenicillin 1MU, IV, Q6H",,14 days,"Once patient is able to swallow, switch to penicillin V 250mg, PO, Q6H"
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Sinusitis,Acute,,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",5 days,"Most sinusitis does not require antibiotics except:
+Penicillin V 500mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",10 days,
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,"The majority of sore throat is viral, but there is clinical overlap between viral and bacterial infections. Antibiotics should be used only if there is strong suspicion of bacterial infections.",Sore throat/Pharyngitis/Tonsillitis,,Corynebacterium diphtheriae,"Benzylpenicillin 1MU, IV, Q6H",,14 days,"Once patient is able to swallow, switch to penicillin V 250mg, PO, Q6H"
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,"Most sinusitis does not require antibiotics except:
 1. Symptoms lasting longer than 7 days with purulent nasal discharge, sinus tenderness or maxillary toothache;
 2. Severe symptoms and high fever more than 39oC or higher at onset of illness and lasting for more than 3 days; and
-3. Worsening symptoms after initial improvement."
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Sinusitis,Chronic (more than 12 weeks),,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",3-10 weeks,"Most sinusitis does not require antibiotics except:
+3. Worsening symptoms after initial improvement.",Sinusitis,Acute,,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",5 days,
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,"Most sinusitis does not require antibiotics except: 
 1. Symptoms lasting longer than 7 days with purulent nasal discharge, sinus tenderness or maxillary toothache;
 2. Severe symptoms and high fever more than 39oC or higher at onset of illness and lasting for more than 3 days; and
-3. Worsening symptoms after initial improvement."
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Otitis media,Acute,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H","Erythromycin 500mg, PO, Q6H",5 days,
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Otitis media,Chronic,Decide therapy based on culture and sensitivity reports,,,,
-Adult,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,General,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
+3. Worsening symptoms after initial improvement.",Sinusitis,Chronic (more than 12 weeks),,"Amoxicillin 500mg, PO, Q8H","Amoxicillin/clavulanate (500mg/125mg), PO, Q8H",3-10 weeks,
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,,Otitis media,Acute,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H","Erythromycin 500mg, PO, Q6H",5 days,
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,,Otitis media,Chronic,,Decide therapy based on culture and sensitivity reports,,,
+Adult,RESPIRATORY TRACT INFECTIONS - UPPER ,,Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
 OR
 Chloramphenicol 500mg, IV, Q6H","Cefotaxime 1g, IV, Q8H",5-7 days,It is a medical emergency; Avoid throat examination; Be prepared for emergency intubation.
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Acute bronchitis,General,"Mostly viral; Bordetella pertussis, Chlamydophila pneumoniae, and Mycoplasma pneumonia","Amoxicillin 500mg, PO, Q8H","Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,Antibiotics may be considered for acute bronchitis in someone with significant comorbidity or secondary infections.
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Acute infective exacerbation of COPD,General,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,Acute bronchitis is mostly viral. Antibiotics may be considered in someone with significant comorbidity or secondary infections.,Acute bronchitis,,"Mostly viral; Bordetella pertussis, Chlamydophila pneumoniae, and Mycoplasma pneumonia","Amoxicillin 500mg, PO, Q8H","Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,Antibiotic therapy should not be used unless patient has clinical signs of infections: 1. Increased sputum purulence; 2. Increased sputum; and 3. Increased breathlessness and cough,Acute infective exacerbation of COPD,,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis","Amoxicillin 500mg, PO, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H","Ampicillin 1g, IV, Q6H
 PLUS
-Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,Antibiotic therapy should not be used unless patient has clinical signs of infections: 1. Increased sputum purulent; 2. Increased sputum; and 3. Increased breathlessness and cough
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Acute infective exacerbation of COPD,No history of use of antimicrobials in last 3 months and no associated comorbidity conditions,,"Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H","Amoxicillin 500mg, PO, Q8H
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Acute infective exacerbation of COPD,No history of use of antimicrobials in last 3 months and no associated comorbidity conditions,,"Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H","Amoxicillin 500mg, PO, Q8H
 PLUS
 Erythromycin 500mg, PO, Q6H",5 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Acute infective exacerbation of COPD,"Presence of comorbidities, such as chronic heart,liver, or renal disease; diabetes mellitus; alcoholism; malignancies; asplenia; immunosuppressing conditions or use of immunosuppressants; use of antimicrobials within the previous 3 months",Resistant streptococci,"Ampicillin 1g, IV, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Acute infective exacerbation of COPD,"Presence of comorbidities, such as chronic heart,liver, or renal disease; diabetes mellitus; alcoholism; malignancies; asplenia; immunosuppressing conditions or use of immunosuppressants; use of antimicrobials within the previous 3 months",Resistant streptococci,"Ampicillin 1g, IV, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Community acquired pneumonia,Outpatient No comorbities,"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Doxycycline 100mg, PO, Q12H","Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Community acquired pneumonia,"With comorbidities like heart disease, chronic lung diseases, liver, renal disease, DM, Malignancies and immunocompromised","Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Amoxicillin 1g, PO, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Community acquired pneumonia,"Outpatient, No comorbities","Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Doxycycline 100mg, PO, Q12H","Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",5 days,
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Community acquired pneumonia,"Outpatient, With comorbidities like heart disease, chronic lung diseases, liver, renal disease, DM, Malignancies and immunocompromised","Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Amoxicillin 1g, PO, Q8H
 PLUS 
 Doxycycline 100mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",7 days,"Wherever Staphylococcal pneumoniae is suspected or proven by culture, add cloxacillin"
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Community acquired pneumonia,Inpatient (non-ICU),"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Ampicillin 1g, IV, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Community acquired pneumonia,Inpatient (non-ICU),"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Ampicillin 1g, IV, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q24H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Community acquired pneumonia,Inpatient (ICU),"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Ceftriaxone 1g, IV, Q12H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Community acquired pneumonia,Inpatient (ICU),"Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis, Mycoplasma pneumoniae, Chlamydia psittaci and pneumoniae, Coxiella burnetii","Ceftriaxone 1g, IV, Q12H
 PLUS
 Erythromycin 500mg, PO, Q6H","Piperacillin/tazobactam 4.5g, IV, Q6H",7 days,Take sputum and blood cultures before initiation of antibiotics
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Hospital acquired pneumonia,Not high risk of mortality and no factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftriaxone 1g, IV, Q12H 
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Hospital acquired pneumonia,Not high risk of mortality and no factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftriaxone 1g, IV, Q12H 
 PLUS 
 Gentamicin 5mg/kg, IV, Q24H","Piperacillin/tazobactam 4.5g, IV, Q6H
 
 ",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Hospital acquired pneumonia,Not at high risk of mortality but with factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftazidime 2g, IV, Q8H 
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Hospital acquired pneumonia,Not at high risk of mortality but with factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftazidime 2g, IV, Q8H 
 PLUS 
 Vancomycin 15mg/kg, IV, Q12H","Piperacillin/tazobactam 4.5g, IV, Q6H
 PLUS 
 Vancomycin 15mg/kg, IV, Q12H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Hospital acquired pneumonia,High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Piperacillin/tazobactam 4.5g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Hospital acquired pneumonia,High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Piperacillin/tazobactam 4.5g, IV, Q6H
 PLUS 
 Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H 
 PLUS 
 Amikacin 15mg/kg, IV, Q24H",7 days,"If MRSA suspected/isolated, add vancomycin 15mg/kg, IV, Q12H"
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Ventilator associated pneumonia (VAP),,,"Piperacillin/tazobactam 4.5g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Ventilator associated pneumonia (VAP),,,"Piperacillin/tazobactam 4.5g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H
 PLUS
 Amikacin 15mg/kg, IV, Q24H",7-14 days,"If MRSA suspected/isolated, addvancomycin 15mg/kg, IV, Q12H"
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Lung abscess,,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods","Ampicillin 1g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Lung abscess,,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods","Ampicillin 1g, IV, Q6H
 PLUS
 Metronidazole 500mg, IV or 400mg, PO, Q8H","Ceftriaxone 1g, IV, Q12H
 PLUS
-Metronidazole 500mg, IV or 400mg, PO, Q8H",4-6 weeks (IV plus oral),Drainage may be required along with antimicrobial therapy for abscess size 6-8cm or large
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
+Metronidazole 500mg, IV or 400mg, PO, Q8H",4-6 weeks (IV plus oral),Drainage may be required along with antimicrobial therapy for abscess size 6-8cm or large
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Parapneumonic effusion,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus","Ampicillin 1g, IV, Q6H
 PLUS 
 Metronidazole 500mg, IV, Q8H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Metronidazole 500mg, IV, Q8H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftriaxone 1g, IV, Q12H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Parapneumonic effusion,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftriaxone 1g, IV, Q12H
 PLUS
 Gentamicin 5mg/kg, IV, Q24H
 PLUS
 Metronidazole 500mg, IV, Q8H","Piperacillin/tazobactam 4.5g, IV, Q6H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftazidime 2g, IV, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Parapneumonic effusion,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Ceftazidime 2g, IV, Q8H
 PLUS
 Vancomycin 15mg/kg, IV, Q12H
 PLUS
@@ -116,44 +116,44 @@ Metronidazole 500mg, IV, Q8H","Piperacillin/tazobactam 4.5g, IV, Q6H
 PLUS
 Vancomycin 15mg/kg, IV, Q12H
 ",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Parapneumonic effusion,High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Piperacillin/tazobactam 4.5g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Parapneumonic effusion,High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,"Hospital pathogens such as Coliforms, Pseudomonas, Acinetobacter, Staphylococcus aureus including MRSA","Piperacillin/tazobactam 4.5g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H
 PLUS
 Amikacin 15mg/kg, IV, Q24H",,"If MRSA suspected/isolated, add vancomycin 15mg/kg, IV, Q12H"
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus, anaerobes","Ampicillin 1g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Empyema,Community acquired,"Streptococcus pneumoniae, Streptococcus milleri group, Staphylococcus aureus, anaerobes","Ampicillin 1g, IV, Q6H
 PLUS
 Metronidazole 500mg, IV, Q8H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Metronidazole 500mg, IV or 400mg, PO, Q8H",2-4 weeks,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftriaxone 1g, IV, Q12H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Empyema,Hospital acquired: Not high risk of mortality and no factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftriaxone 1g, IV, Q12H
 PLUS
 Gentamicin 5mg/kg, IV, Q24H","Piperacillin/tazobactam 4.5g, IV, Q6H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftazidime 2g, IV, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Empyema,Hospital acquired: Not at high risk of mortality but with factors increasing the likelihood of MRSA,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Ceftazidime 2g, IV, Q8H
 PLUS
 Vancomycin 15mg/kg, IV, Q12H","Piperacillin/tazobactam 4.5g, IV, Q6H 
 PLUS 
 Vancomycin 15mg/kg, IV, Q12H",7 days,
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Empyema,Hospital acquired: High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Piperacillin/tazobactam 4.5g, IV, Q6H 
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Empyema,Hospital acquired: High risk of mortality or receipt of intravenous antibiotics during the prior 90 days,Methicillin-resistant Staphylococcus aureus and Pseudomonas Aeruginosa,"Piperacillin/tazobactam 4.5g, IV, Q6H 
 PLUS 
 Gentamicin 5mg/kg, IV, Q24H","Meropenem 1g, IV, Q8H
 PLUS
 Amikacin 15mg/kg, IV, Q24H",7 days,"If MRSA suspected /isolated, add vancomycin 15mg/kg, IV, Q12H"
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis (infective exacerbation),Outpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Amoxicillin 1g, PO, Q8H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Bronchiectasis (infective exacerbation),Outpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Amoxicillin 1g, PO, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Amoxicillin 1g, PO, Q8H
 PLUS
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",14 days,Sputum culture should be taken
-Adult,LOWER RESPIRATORY TRACT INFECTIONS,,Bronchiectasis,Inpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Ampicillin 1g, IV, Q6H
+Adult,RESPIRATORY TRACT INFECTIONS - LOWER,,Bronchiectasis (infective exacerbation),Inpatient,"Staphylococcus aureus, Streptococcus pneumoniae, anaerobes, gram-negative rods, Haemophilus","Ampicillin 1g, IV, Q6H
 PLUS
-Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","Ciprofloxacin 500mg, IV, Q12H
+Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H","[Ciprofloxacin 500mg, IV, Q12H
 OR
-Ceftriaxone 1g, IV, Q12H
+Ceftriaxone 1g, IV, Q12H]
 PLUS 
 Doxycycline 200mg, PO, STAT then 100mg, PO, Q12H",,
 Adult,URINARY TRACT INFECTIONS,,Uncomplicated Cystitis in women,,"Escherichia coli , Klebsiella spp., Staphylococcus saprophyticus, Enterococcus faecalis","Nitrofurantoin 100mg, PO, Q6H","Cotrimoxazole 960mg, PO, Q12H for 3 days
 OR
-Cephalexin 500mg, PO, Q12H",7 days,
+Cephalexin 500mg, PO, Q12H for 7 days",,
 Adult,URINARY TRACT INFECTIONS,,UTI in men,,,"Cotrimoxazole 960mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",7 days,"If prostate involved, extend to 14 days."
 Adult,URINARY TRACT INFECTIONS,,Acute Pyelonephritis,Uncomplicated,"Coliforms, Pseudomonas","Ciprofloxacin 500mg, PO, Q12H",,10 days,
 Adult,URINARY TRACT INFECTIONS,,Acute Pyelonephritis,Complicated,"Coliforms, Pseudomonas","Ceftriaxone 1g, IV, Q24H","Piperacillin/tazobactam 4.5g, IV, Q6H",7-10 days,
@@ -161,22 +161,22 @@ Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Mild to moderate,Usual UTI cau
 Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Severe case,Usual UTI causing pathogens and occasionally STI causing organisms,"Ampicillin 2g, IV, Q6H
 PLUS
 Gentamicin 5mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H",14 days,Can change to oral after substantial clinical improvement.
-Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Chronic Bacterial Prostatitis ,Usual UTI causing pathogens and occasionally STI causing organisms,"Cotrimoxazole 960mg, PO, Q12H
+Adult,URINARY TRACT INFECTIONS,,Chronic Bacterial Prostatitis,,Usual UTI causing pathogens and occasionally STI causing organisms,"Cotrimoxazole 960mg, PO, Q12H
 OR
 Norfloxacin 400mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H
 OR
 Doxycycline 100mg, PO, Q12H",4 weeks,
-Adult,URINARY TRACT INFECTIONS,,Acute Prostatitis,Epididymo-orchitis,"Chlamydia, trachomatis, Neisseria gonorrhoeae, Escherichia coli","Ceftriaxone 250mg, IM, STAT
+Adult,URINARY TRACT INFECTIONS,,Epididymo-orchitis,,"Chlamydia, trachomatis, Neisseria gonorrhoeae, Escherichia coli","Ceftriaxone 250mg, IM, STAT
 PLUS
 Doxycycline 100mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H
 PLUS
 Doxycycline 100mg, PO, Q12H",7 days,
-Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,General,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
+Paediatrics,UPPER RESPIRATORY TRACT INFECTIONS,,Acute epiglottitis,,"Haemophilus influenzae, Streptococcus pneumoniae, Streptococcus pyogenes, Staphylococcus aureus","Ampicillin 25mg/kg, IV, Q6H
 PLUS
 Chloramphenicol 25mg/kg, IV, Q6H","Ceftriaxone 100mg/kg, IV, Q24H ",5-7 days,It is a medical emergency; Avoid throat examination
-Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Methicillin-sensitive Staphylococcus aureus (MSSA),"Cloxacillin, IM/IV",,5 days,
-Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, IV",,5 days,
-Neonates,SKIN INFECTION,,Impetigo neonatorum,General,Group B streptococcus,"Benzylpenicillin, IV","Ampicillin, IM/IV",7-14 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,,Methicillin-sensitive Staphylococcus aureus (MSSA),"Cloxacillin, IM/IV",,5 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, IV",,5 days,
+Neonates,SKIN INFECTION,,Impetigo neonatorum,,Group B streptococcus,"Benzylpenicillin, IV","Ampicillin, IM/IV",7-14 days,
 Adult,INTRA-ABDOMINAL,,Appendicitis,Uncomplicated/Unclassified,,"Ampicillin 1g, IV, Q6H
 PLUS
 Metronidazole 7.5mg/kg, IV, Q8H
@@ -191,7 +191,7 @@ PLUS
 Gentamicin 5mg/kg, IV, Q24H",Culture based,5-7 days,
 Adult,INTRA-ABDOMINAL,,Cholecystitis,,,"Ampicillin 1g, IV, Q6H
 PLUS
-Gentamicin 5mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H",,
+Gentamicin 5mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H",5-7 days,
 Adult,INTRA-ABDOMINAL,,Cholecystitis,If severe,,"Ciprofloxacin 500mg, IV, Q12H
 PLUS
 Metronidazole 7.5mg/kg, IV, Q8H",,5-7 days,
@@ -201,7 +201,7 @@ Gentamicin 5mg/kg, IV, Q24H","Ceftriaxone 1g, IV, Q12H
 PLUS
 Metronidazole 7.5mg/kg, IV, Q8H",5-7 days,"In patient with chronic biliary obstruction, add Metronidazole 7.5mg/kg, IV, Q8H
 "
-Adult,INTRA-ABDOMINAL,,"Liver abscess",Pyogenic,,"Ciprofloxacin 400mg, IV, Q12H
+Adult,INTRA-ABDOMINAL,,Liver abscess,Pyogenic,,"Ciprofloxacin 400mg, IV, Q12H
 PLUS
 Metronidazole 7.5mg/kg, IV, Q8H","Ceftriaxone 1g, IV, Q12H
 PLUS
@@ -261,13 +261,13 @@ intervention and clinical
 response",Monitor renal function in patients receiving vancomycin and/or meropenem
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Meningitis,Cryptococcal meningitis,"Cryptococcus neoformans (especially in immunocompromised patients including HIV/AIDS)","Amphotericin B liposomal 3 - 4mg/kg, IV, Q24H",,6 - 8 weeks followed by long-term suppressive therapy with oral fluconazole especially in AIDS,Needs special administration
 Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Encephalitis,,Herpes simplex,"Acyclovir, 10mg/kg, IV, Q8H",,14-21 days,Administered as infusion over 1 hour
-Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Brain Abscess,General,"Polymicrobial including Streptococcus anginosus, anaerobic bacteria, Staphylococcus aureus and gram-negatives
+Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Brain Abscess,,"Polymicrobial including Streptococcus anginosus, anaerobic bacteria, Staphylococcus aureus and gram-negatives
 ","Benzylpenicillin 4MU, IV, Q4H
 PLUS
 Metronidazole 1g, IV as loading dose; and then 500mg, IV, Q8H","Ceftriaxone, 1g, IV, Q12H
 PLUS
 Metronidazole 1g, IV as loading dose; and then 500mg, IV, Q8H","4 to 8 weeks (Duration of treatment depends upon surgical intervention, clinical response and radiological evidence of resolution)",Early surgical consultation is essential
-Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Neurocysticercosis,General,Taenia solium,"Albendazole 400mg, PO, Q12H",,15-30 days,"Prednisolone 1mg/kg, PO one day prior to starting albendazole and continue for 10 days"
+Adult,CENTRAL NERVOUS SYSTEM INFECTIONS,,Neurocysticercosis,,Taenia solium,"Albendazole 400mg, PO, Q12H",,15-30 days,"Prednisolone 1mg/kg, PO one day prior to starting albendazole and continue for 10 days"
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Soft Tissue Infection,Skin surface infection,,"Cloxacillin 2g, IV, Q6H",Culture based,5-7 days,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Soft Tissue Infection,Deep skin infection,,"Ampicillin 25mg/kg, IV, Q6H
 PLUS
@@ -277,15 +277,15 @@ Gentamicin 7.5mg/kg, IV, Q24H",Culture based,5-7 days,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Gas gangrene,,,"Ceftriaxone 2g, IV, Q12H",,5-7 days,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Impetigo,Impetigo contagiosa,Streptococcus pyogenes,"Penicillin V 500mg, PO, Q6H","Amoxicillin, 500mg, PO, Q8H",7 days,"Where oral administration is not possible, procaine penicillin 0.6MU, IM, Q24H may be substituted; Where infection is widespread or severe, combine cloxacillin with amoxicillin"
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Impetigo,Bullous impetigo,Staphylococcus aureus,"Cloxacillin, 500mg, PO, Q6H","Erythromycin 500mg, PO, Q6H
-",,"Where oral administration is not possible, procaine penicillin 0.6MU, IM, Q24H may be substituted; Where infection is widespread or severe, combine cloxacillin with amoxicillin"
-Adult,SKIN AND SOFT TISSUE INFECTIONS,,"Boils, Folliculitis",Staphylococcus aureus,,"Cloxacillin 500mg, PO, Q6H","Cephalexin 500mg, PO, Q8H
+",7 days,"Where oral administration is not possible, procaine penicillin 0.6MU, IM, Q24H may be substituted; Where infection is widespread or severe, combine cloxacillin with amoxicillin"
+Adult,SKIN AND SOFT TISSUE INFECTIONS,,"Boils, Folliculitis",,Staphylococcus aureus,"Cloxacillin 500mg, PO, Q6H","Cephalexin 500mg, PO, Q8H
 OR
 Erythromycin 500mg, PO, Q6H
 OR
 Cotrimoxazole 480mg, PO, Q12H",5 days,Boils usually require I & D
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Burns,,,"Cloxacillin 2g, IV, Q6H ","Ampicillin 25mg/kg, IV, Q6H",,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Erythrasma,,Corynebacterium minutissimum,"Erythromycin 500mg, PO, Q6H ",,5 days,
-Adult,SKIN AND SOFT TISSUE INFECTIONS,,Erysipelas,,Commonly Streptococcus pyogenes; occasionally Staphylococcus aureusalone or co-infection with Streptococcus pyogenes,"Penicillin V 500mg, PO, Q6H","Erythromycin 500mg, PO, Q6H",7-10 days,"Add cloxacillin, if Staphylococcus aureus suspected"
+Adult,SKIN AND SOFT TISSUE INFECTIONS,,Erysipelas,,Commonly Streptococcus pyogenes; occasionally Staphylococcus aureus alone or co-infection with Streptococcus pyogenes,"Penicillin V 500mg, PO, Q6H","Erythromycin 500mg, PO, Q6H",7-10 days,"Add cloxacillin, if Staphylococcus aureus suspected"
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Cellulitis,"Following surgical procedure, cuts abrasions, crush injury, insect bites, limb oedema","Staphylococcus aureus, Streptococcus pyogenes","Cloxacillin 500mg, PO, Q6H","Erythromycin 500mg, PO, Q6H
 OR
 Cephalexin 500 mg, PO, Q6H",7 days,Surgical referral where appropriate
@@ -321,8 +321,8 @@ Adult,SKIN AND SOFT TISSUE INFECTIONS,,Acne,Moderate to severe ,Propionibacteriu
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Otitis externa,,"Staphylococcus aureus, Streptococcus A,C,G","Amoxicillin, 500mg, PO, Q8H
 OR
 Penicillin V, 500mg, PO, Q6H","Erythromycin 500mg, PO, Q6H",5 days,
-Adult,SKIN AND SOFT TISSUE INFECTIONS,,Scabies,,Mite (Sarcoptes scabiei),Gamma Benzene Hexachloride,,"Apply thinly over whole body, omitting head and neck, wash off using cool water after 24 hours; Repeat if necessary after 7 days",Treat all members of the household & close contacts simultaneously; Wash all clothing in hot water and sundry all beddings and linens.
-Adult,SKIN AND SOFT TISSUE INFECTIONS,,Scabies,In pregnancy/ lactating mother,Mite (Sarcoptes scabiei),Sulphur 6 % ointment Apply Q12H after bath,,3 days,Treat all members of the household & close contacts simultaneously; Wash all clothing in hot water and sundry all beddings and linens.
+Adult,SKIN AND SOFT TISSUE INFECTIONS,Treat all members of the household & close contacts simultaneously; Wash all clothing in hot water and sun dry all beddings and linens.,Scabies,,Mite (Sarcoptes scabiei),Gamma Benzene Hexachloride,,"Apply thinly over whole body, omitting head and neck, wash off using cool water after 24 hours; Repeat if necessary after 7 days",
+Adult,SKIN AND SOFT TISSUE INFECTIONS,Treat all members of the household & close contacts simultaneously; Wash all clothing in hot water and sun dry all beddings and linens.,Scabies,In pregnancy/ lactating mother,Mite (Sarcoptes scabiei),Sulphur 6 % ointment,,Apply Q12H after bath for 3 days,
 Adult,SKIN AND SOFT TISSUE INFECTIONS,,Infectious Atopic Dermatitis,,,"Cloxacillin, 500mg, PO, Q6H
 OR
 Cephalexin 500mg, PO, Q8H",,5-7 days,"Oral antibiotics are used when the dermatitis has not settled with other measures and there is suspicion that infection is contributing to the dermatitis; and there is obvious secondary infection, particularly if using wet dressings."
@@ -361,7 +361,7 @@ Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Left-sided,M
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Left-sided,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 15mg/kg, IV, Q12H",,6 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Right-sided,Methicillin-susceptible Staphylococcus aureus (MSSA),"Cloxacillin 2g IV, Q4H",,2 weeks,Usually seen in IV Drug user
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Staphylococcal endocarditis,Right-sided,Methicillin-resistant Staphylococcus aureus (MRSA),"Vancomycin, 15mg/kg, IV, Q12H",,6 weeks,
-Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Endocarditis caused by the HACEK group,General,"Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK group)","Ceftriaxone, 1g, IV, Q12H",,4 weeks,
+Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Endocarditis caused by the HACEK group,,"Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella (HACEK group)","Ceftriaxone, 1g, IV, Q12H",,4 weeks,
 Adult,CARDIOVASCULAR SYSTEM INFECTIONS,,Prosthetic valve endocarditis,Valve replacement less than 1 year,"Staphylococcus epidermidis, Staphylococcus aureus, rarely enterobacteriaceae, diphtheroids","Vancomycin 15mg/kg IV, Q12H
 PLUS
 Gentamicin 3mg/kg, IV, Q24H
@@ -425,33 +425,34 @@ OR
 Vaginal pessary 400mg daily (4 x 100mg) for 3 nights
 OR
 Vaginal pessary 500mg single dose for 1 night (Choose depending on severity, compliance)","Fluconazole 150mg, PO, STAT (in chronic and resistant cases)",,"All topical and oral azoles give 80 - 95% cure; In pregnancy, avoid oral azoles."
-Adult,GENITAL TRACT INFECTIONS,,Balanitis,,Candidal balanitis is commoner than bacterial cause,"Topical Clotrimazole 1% Ointment, Q12H","Fluconazole 150mg, PO, STAT (in chronic and resistant cases)",At least 7 days,
+Adult,GENITAL TRACT INFECTIONS,,Balanitis,,Candidal balanitis is commoner than bacterial cause,"Topical Clotrimazole 1% Ointment, Q12H","Fluconazole 150mg, PO, STAT (in chronic and resistant cases)","At least 7 days with topical Clotrimazole; 
+single dose for Fluconazole",
 Adult,GENITAL TRACT INFECTIONS,,Bacterial vaginosis,,"Gardnerella vaginalis, Mycoplasma hominis","Metronidazole 2g, PO, STAT
 OR
-Metronidazole 400mg, PO, Q12H",,7 days,A 7 days course of oral metronidazole is slightly more effective than 2g stat; Avoid 2g stat dose in pregnancy
+Metronidazole 400mg, PO, Q12H",,7 days,A 7 days course of oral metronidazole is slightly more effective than 2g single dose; Avoid 2g single dose in pregnancy
 Adult,GENITAL TRACT INFECTIONS,,"Gonococcal urethritis, Cervicitis",,Neisseria gonorrhoeae,"Ceftriaxone 250 mg, IM, STAT","Ciprofloxacin 500mg, PO, STAT",,"Take samples for gram stain and culture wherever applicable; When specific diagnosis is difficult, follow syndromic treatment guideline as per National STI management guideline"
 Adult,GENITAL TRACT INFECTIONS,,"Chlamydia trachomatis urethritis, Cervicitis",,Chlamydia trachomatis,"Doxycycline 200mg, PO, STAT 
 THEN 100mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",7 days,
 Adult,GENITAL TRACT INFECTIONS,,Trichomoniasis,,Trichomonas vaginalis,"Metronidazole 2g, PO, STAT
 OR
-Metronidazole 400mg, PO, Q12H",,5-7 days,
-Adult,GENITAL TRACT INFECTIONS,,Pelvic inflammatory disease (PID),,Chlamydia and Neisseria gonorrhoeae,"Ceftriaxone 250mg, IM, STAT
+Metronidazole 400mg, PO, Q12H for 5-7 days",,,
+Adult,GENITAL TRACT INFECTIONS,,Pelvic inflammatory disease (PID),,Chlamydia and Neisseria gonorrhoeae,"Ceftriaxone 250mg, IM, STAT single dose
 PLUS
-Metronidazole 400mg, PO, Q12H
+Metronidazole 400mg, PO, Q12H for 14 days
 PLUS
-Doxycycline 100mg, PO, Q12H",,14 days,
+Doxycycline 100mg, PO, Q12H for 14 days",,,
 Adult,GENITAL TRACT INFECTIONS,,Pelvic inflammatory disease (PID),If pregnant,Chlamydia and Neisseria gonorrhoeae,"Ceftriaxone 250mg, IM, STAT
 PLUS
 Erythromycin 500mg, PO, Q6H",,7 days,
-Adult,GENITAL TRACT INFECTIONS,,Chanchroid,,Haemophilus ducreyi,"Erythromycin 500mg, PO, Q6H for 7 days","Ceftriaxone 250mg, IM, STAT
+Adult,GENITAL TRACT INFECTIONS,,Chanchroid,,Haemophilus ducreyi,"Erythromycin 500mg, PO, Q6H for 7 days","Ceftriaxone 250mg, IM, STAT single dose
 OR
 Ciprofloxacin 500mg, PO, Q12H for 3 days",,
 Adult,GENITAL TRACT INFECTIONS,,Donovanosis (Granuloma Inguinale),,Klebsiella granulomatis,"Doxycycline 100mg, PO, Q12H","Erythromycin 500mg, PO, Q6H
 OR
 Cotrimoxazole 960mg, PO, Q12H",All for minimum 3 weeks,
-Adult,GENITAL TRACT INFECTIONS,,Syphilis,Early Syphilis,Treponema pallidum,"Benzathine benzylpenicillin 2.4MU, IM, STAT, divided equally at 2 different sites","Procaine penicillin 1.2MU, IM, Q24H ",10 days,"Primary, secondary or early latent syphilis of not more than 2 years duration"
+Adult,GENITAL TRACT INFECTIONS,,Syphilis,Early Syphilis,Treponema pallidum,"Benzathine benzylpenicillin 2.4MU, IM, STAT, divided equally at 2 different sites once","Procaine penicillin 1.2MU, IM, Q24H for 10 days",,"Primary, secondary or early latent syphilis of not more than 2 years duration"
 Adult,GENITAL TRACT INFECTIONS,,Syphilis,Early Syphilis: If allergic to penicillin,Treponema pallidum,"Doxycycline 100mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",14 days,"Use erythromycin, if pregnant"
-Adult,GENITAL TRACT INFECTIONS,,Syphilis,Late Latent Syphilis,Treponema pallidum,"Benzathine benzylpenicillin 2.4MU, IM, divided equally at 2 different sites every week for 3 weeks","Procaine penicillin 1.2MU, IM, Q24H ",10-14 days,Infection of >2 years duration without evidence of treponema infection
+Adult,GENITAL TRACT INFECTIONS,,Syphilis,Late Latent Syphilis,Treponema pallidum,"Benzathine benzylpenicillin 2.4MU, IM, divided equally at 2 different sites every week for 3 weeks","Procaine penicillin 1.2MU, IM, Q24H for 10-14 days",,Infection of >2 years duration without evidence of treponema infection
 Adult,GENITAL TRACT INFECTIONS,,Syphilis,Late Latent Syphilis: If allergic to penicillin,Treponema pallidum,"Doxycycline 100mg, PO,Q12H","Erythromycin 500mg, PO, Q6H",30 days,"Use erythromycin, if pregnant"
 Adult,GENITAL TRACT INFECTIONS,,Syphilis,Neurosyphilis,Treponema pallidum,"Benzylpenicillin 4MU, IV, Q6H for 14 days","Doxycycline 100mg, PO, Q8H for 30 days
 OR
@@ -476,29 +477,37 @@ Metronidazole 400mg, PO, Q8H",5 days,
 Adult,ORO-DENTAL INFECTIONS,,Facial cellulitis,,Beta-haemolytic streptococcus and Staphylococcus aureus,"Amoxicillin 500mg, PO, Q8H
 OR
 Cloxacillin 500mg, PO, Q6H","Cephalexin 500mg, PO, Q8H",5 days,
-Adult,ORO-DENTAL INFECTIONS,,Acute necrotizing ulcerative gingivitis (Vincent’s gingivitis),,Fusiform bacteria and spirochetes,"Metronidazole 400mg, PO, Q8H
+Adult,ORO-DENTAL INFECTIONS,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice",Acute necrotizing ulcerative gingivitis (Vincent’s gingivitis),,Fusiform bacteria and spirochetes,"Metronidazole 400mg, PO, Q8H
 PLUS
-Chlorhexidine mouthwash (0.2%) or Hydrogen peroxide mouthwash (6%)","Doxycycline 200mg, STAT, and then, Q12H PLUS Chlorhexidine mouthwash (0.2%) or Hydrogen peroxide mouthwash (6%)",5 days,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice"
-Adult,ORO-DENTAL INFECTIONS,,Pericoronitis,,Mixed infections,"Amoxicillin 500mg, PO, Q8H
-PLUS
-Metronidazole 400mg, PO, Q8H","Doxycycline 100mg, PO, Q12H",5 days,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice"
-Adult,ORO-DENTAL INFECTIONS,,Periodontitis,,Mixed infections,"Amoxicillin 500mg, PO, Q8H
-PLUS
-Metronidazole 400mg, PO, Q8H","Doxycycline 100mg, PO, Q12H",5 days,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice"
-Adult,ORO-DENTAL INFECTIONS,,Periodontal/Periapical abscess,,"Viridans, Streptococcus species, anaerobic streptococcus, Bacteroides","Amoxicillin 500mg, PO, Q8H","Cloxacillin 500mg, PO, Q6H",5 days,
-Adult,ORO-DENTAL INFECTIONS,,Osteomyelitis of the jaw,,"Staphylococcus aureus, Haemolytic streptococcus, Bacteroides, Actinomyces","Amoxicillin 500mg, PO, Q6H
+[Chlorhexidine mouthwash (0.2%) 
 OR
-Ampicillin 1g, IV, Q6H
+Hydrogen peroxide mouthwash (6%)]","Doxycycline 200mg, STAT, and then, Q12H 
+PLUS 
+[Chlorhexidine mouthwash (0.2%) 
+OR 
+Hydrogen peroxide mouthwash (6%)]",5 days,
+Adult,ORO-DENTAL INFECTIONS,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice",Pericoronitis,,Mixed infections,"Amoxicillin 500mg, PO, Q8H
 PLUS
-Cloxacillin 1g, IV, Q6H","Metronidazole 400mg, IV, Q6H
+Metronidazole 400mg, PO, Q8H","OR Doxycycline 100mg, PO, Q12H",5 days,
+Adult,ORO-DENTAL INFECTIONS,"Antibiotic alone will not respond without local measures such as scaling, irrigation and oral hygiene advice",Periodontitis,,Mixed infections,"Amoxicillin 500mg, PO, Q8H
+PLUS
+Metronidazole 400mg, PO, Q8H","Doxycycline 100mg, PO, Q12H",5 days,
+Adult,ORO-DENTAL INFECTIONS,,Periodontal/Periapical abscess,,"Viridans, Streptococcus species, anaerobic streptococcus, Bacteroides","Amoxicillin 500mg, PO, Q8H","Cloxacillin 500mg, PO, Q6H",5 days,
+Adult,ORO-DENTAL INFECTIONS,,Osteomyelitis of the jaw,,"Staphylococcus aureus, Haemolytic streptococcus, Bacteroides, Actinomyces","[Amoxicillin 500mg, PO, Q6H
+OR
+Ampicillin 1g, IV, Q6H]
+PLUS
+Cloxacillin 1g, IV, Q6H
+","Metronidazole 400mg, IV, Q6H
 PLUS
 Cloxacillin 1g, IV, Q6H",7-10 days,
 Adult,ORO-DENTAL INFECTIONS,,Antibiotic prophylaxis against infective endocarditis for dental procedures,,,"Amoxicillin 2g, PO, STAT","Erythromycin 500mg, PO STAT
 OR
-Cephalexin 2g, PO, STAT","30-60 minutes before 
-procedure",
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Cholera,,Vibrio cholerae,"Doxycycline 300mg, PO, STAT","Ciprofloxacin 1g, PO, STAT",Single dose,Stool culture should be done; Fluid replacement is the mainstay therapy.
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Cholera,In pregnancy,Vibrio cholerae,"Erythromycin 12.5mg/kg, PO, Q6H",,3 days,Stool culture should be done; Fluid replacement is the mainstay therapy.
+Cephalexin 2g, PO, STAT","single dose 30-60 minutes before 
+procedure
+",
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture should be done; Fluid replacement is the mainstay therapy.,Cholera,,Vibrio cholerae,"Doxycycline 300mg, PO, STAT","Ciprofloxacin 1g, PO, STAT",Single dose,
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture should be done; Fluid replacement is the mainstay therapy.,Cholera,In pregnancy,Vibrio cholerae,"Erythromycin 12.5mg/kg, PO, Q6H",,3 days,
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Diverticulitis,Severe,"Escherichia coli, Coliforms, Enterococci, Anaerobes","Ampicillin 1g, IV, Q6H
 PLUS
 Gentamicin 7.5mg/kg, IV, Q24H
@@ -506,7 +515,7 @@ PLUS
 Metronidazole 400mg, PO, Q12H","Ciprofloxacin 400mg, IV, Q12H
 PLUS
 Metronidazole 400mg, PO, Q12H",5-7 days,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Eradication of Helicobacter pylori,General,Helicobacter pylori,"Omeprazole 20mg, PO, Q12H
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Eradication of Helicobacter pylori,,Helicobacter pylori,"Omeprazole 20mg, PO, Q12H
 PLUS
 Clarithromycin 500mg, PO, Q12H
 PLUS
@@ -515,13 +524,13 @@ PLUS
 Metronidazole 400mg, PO, Q12H
 PLUS
 Amoxicillin 1g, PO, Q12H",14 days,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,"Mild (Non-dysenteric)
-",,"Norfloxacin 400mg, PO, STAT",,Single dose,Stool culture to be done; fluid replacement is main component of therapy
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Severe (Dysenteric),,"Norfloxacin 400mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",3 days,Stool culture to be done; fluid replacement is main component of therapy
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,"Yersinia, Escherichia coli","Cotrimoxazole 960mg, PO, Q12H","Norfloxacin 400mg, PO, Q12H
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture to be done; fluid replacement is main component of therapy,Infective Diarrhoea Traveller’s diarrhoea,"Mild (Non-dysenteric)
+",,"Norfloxacin 400mg, PO, STAT",,Single dose,
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture to be done; fluid replacement is main component of therapy,Infective Diarrhoea Traveller’s diarrhoea,Severe (Dysenteric),,"Norfloxacin 400mg, PO, Q12H","Ciprofloxacin 500mg, PO, Q12H",3 days,
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture to be done; fluid replacement is main component of therapy,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,"Yersinia, Escherichia coli","Cotrimoxazole 960mg, PO, Q12H","Norfloxacin 400mg, PO, Q12H
 OR
-Ciprofloxacin 500mg, PO, Q12H",5 days,Stool culture to be done; fluid replacement is main component of therapy
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,Campylobacter,"Norfloxacin 400mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",5 days,Stool culture to be done; fluid replacement is main component of therapy
+Ciprofloxacin 500mg, PO, Q12H",5 days,
+Adult,GASTROINTESTINAL TRACT INFECTIONS,Stool culture to be done; fluid replacement is main component of therapy,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,Campylobacter,"Norfloxacin 400mg, PO, Q12H","Erythromycin 500mg, PO, Q6H",5 days,
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Infective Diarrhoea Traveller’s diarrhoea,Organism specific,"Salmonella, Shigella","Amoxicillin 500mg, PO, Q8H
 OR
 Cotrimoxazole 960mg, PO, Q12H","Ceftriaxone 2g, IV, Q12H",5-7 days,"If blood culture positive for the organisms, treat for 14 days"
@@ -537,4 +546,4 @@ Adult,GASTROINTESTINAL TRACT INFECTIONS,,Peritonitis: Primary (Spontaneous bacte
 OR
 Ciprofloxacin 500mg, PO, Q12H",5 days,For cirrhotic patient with upper GI bleed
 Adult,GASTROINTESTINAL TRACT INFECTIONS,,Peritonitis: Primary (Spontaneous bacterial peritonitis),Secondary prophylaxis ,,"Norfloxacin 400mg, PO, Q12H","Cotrimoxazole 960mg, PO, Q24H",Lifelong,
-Adult,GASTROINTESTINAL TRACT INFECTIONS,,Enteric Fever,General,"Salmonella typhi, Salmonella paratyphi","Ampicillin 1g, IV, Q6H","Ceftriaxone 1g, IV, Q12H",10-14 days,Culture and sensitivity is essential
+Adult,GASTROINTESTINAL TRACT INFECTIONS,,Enteric Fever,,"Salmonella typhi, Salmonella paratyphi","Ampicillin 1g, IV, Q6H","Ceftriaxone 1g, IV, Q12H",10-14 days,Culture and sensitivity is essential
