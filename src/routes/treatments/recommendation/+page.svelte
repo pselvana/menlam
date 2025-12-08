@@ -14,6 +14,16 @@
 	let selectedInfection = null;
 	let finalRows = [];
 
+	function scrollToEl(el) {
+		setTimeout(() => {
+			el?.scrollIntoView({ behavior: "smooth" });
+		}, 50);
+	}
+
+	let sectionView;
+	let infectionView;
+	let tableView;
+
 	onMount(async () => {
 		csv = await loadCSV();
 
@@ -31,6 +41,8 @@
 		finalRows = [];
 
 		sections = [...new Set(csv.filter((r) => r.Patient === p).map((r) => r.Section))].sort();
+
+		scrollToEl(sectionView);
 	}
 
 	function chooseSection(s) {
@@ -47,6 +59,8 @@
         // Store section remarks
         const remarkRow = csv.find(r => r.Patient === selectedPatient && r.Section === s && r['Section Remarks']);
         sectionRemarks = remarkRow ? remarkRow['Section Remarks'] : "";
+
+		scrollToEl(infectionView);
 	}
 
 	function chooseInfection(i) {
@@ -74,6 +88,8 @@
 				r['Infection Remarks']
 		);
 		infectionRemarks = remarkRow ? remarkRow['Infection Remarks'] : "";
+
+		scrollToEl(tableView);
 	}
 </script>
 
@@ -101,6 +117,7 @@
 		</button>
 	</div>
 
+	<section bind:this={sectionView}></section>
 	{#if selectedPatient}
 		<!-- SECTION -->
 		<h2 class="mt-6 text-xl font-semibold">Choose Site of Infection</h2>
@@ -116,6 +133,7 @@
 		</div>
 	{/if}
 
+	<section bind:this={infectionView}></section>
 	{#if selectedSection}
         {#if sectionRemarks}
             <div class="mt-4 rounded border border-base-300 bg-base-200 p-4">
@@ -137,7 +155,7 @@
 		</div>
 	{/if}
 
-
+	<section bind:this={tableView}></section>
 	{#if finalRows.length > 0}
 		{#if infectionRemarks}
 			<div class="mt-4 rounded border border-base-300 bg-base-200 p-4">
