@@ -13,7 +13,7 @@
 					<span>Available anywhere.</span>
 				</span>
 			</span>
-			<div class="flex justify-center gap-6 pt-6">
+			<div class="flex justify-center gap-4 pt-6">
 				<a href="/treatments" class="btn btn-primary">Treatment Recommendations</a>
 				<a href="/terms" class="btn btn-outline">Terms of Use</a>
 			</div>

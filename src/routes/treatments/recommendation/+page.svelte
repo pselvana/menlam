@@ -26,9 +26,6 @@
 
 	onMount(async () => {
 		csv = await loadCSV();
-
-		console.log(csv);
-
 		patients = [...new Set(csv.map((r) => r.Patient))].sort();
 	});
 
