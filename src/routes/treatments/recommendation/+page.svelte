@@ -13,6 +13,7 @@
 	let selectedSection = null;
 	let selectedInfection = null;
 	let finalRows = [];
+	let loading = true;
 
 	function scrollToEl(el) {
 		setTimeout(() => {
@@ -27,6 +28,7 @@
 	onMount(async () => {
 		csv = await loadCSV();
 		patients = [...new Set(csv.map((r) => r.Patient))].sort();
+		loading = false;
 	});
 
 	function choosePatient(p) {
@@ -92,6 +94,12 @@
 
 <div class="p-6">
 	<h1 class="mb-4 text-3xl font-bold">Treatments</h1>
+
+	{#if loading}
+		<div class="flex justify-center items-center py-8">
+			<span class="loading loading-spinner loading-lg"></span>
+		</div>
+	{:else}
 
 	<!-- PATIENT SELECTION -->
 	<h2 class="mt-6 text-xl font-semibold">Choose Patient Group</h2>
@@ -186,5 +194,7 @@
 				</tbody>
 			</table>
 		</div>
+	{/if}
+
 	{/if}
 </div>

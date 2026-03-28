@@ -1,81 +1,122 @@
 <script>
+	let open = false;
 	let weight = '';
 	let unit = 'kg';
 	let dosage = '';
-	let result = '';
+	let result = null;
+	let errorMsg = '';
 
 	function calculateDosage() {
 		const w = parseFloat(weight);
 		const d = parseFloat(dosage);
 
 		if (isNaN(w) || isNaN(d) || w <= 0 || d <= 0 || w > 500 || d > 10000) {
-			result = "⚠️ Please enter valid numbers.";
+			errorMsg = 'Please enter valid numbers.';
+			result = null;
 			return;
 		}
 
-		// Convert pounds to kilograms if needed
-		let weightKg = unit === "lb" ? w * 0.453592 : w;
+		errorMsg = '';
+		const weightKg = unit === 'lb' ? w * 0.453592 : w;
+		const mg = d * weightKg;
 
-		// Calculate mg per kg
-		let mg = d * weightKg;
+		result = {
+			weight: w,
+			unit,
+			dosagePerKg: d,
+			totalMg: mg.toFixed(2)
+		};
+	}
 
-		result = `✅ Weight: ${w} ${unit}
-	✅ Dosage per kg: ${d} mg
-	📊 Dosage: ${mg.toFixed(2)} mg`;
-	}    
+	function clear() {
+		weight = '';
+		dosage = '';
+		result = null;
+		errorMsg = '';
+	}
 </script>
 
-<div class="drawer drawer-end z-1000">
-    <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-content flex justify-end">
-        <!-- Page content here -->
-        <label for="my-drawer" class="drawer-button btn bg-green-600 p-6 text-white">Dosage Calculator
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64">
-            <rect x="8" y="4" width="48" height="56" rx="6" fill="#374151"/>
-            <rect x="16" y="10" width="32" height="12" rx="2" fill="white"/>
-
-            <!-- Buttons background -->
-            <rect x="16" y="28" width="12" height="12" rx="2" fill="white"/>
-            <rect x="36" y="28" width="12" height="12" rx="2" fill="white"/>
-            <rect x="16" y="44" width="12" height="12" rx="2" fill="white"/>
-            <rect x="36" y="44" width="12" height="12" rx="2" fill="white"/>
-
-            <!-- Symbols -->
-            <text x="22" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">+</text>
-            <text x="42" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">−</text>
-            <text x="22" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">×</text>
-            <text x="42" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">÷</text>
-            </svg>
-        </label>
-
-    </div>
-    <div class="drawer-side">
-        <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-        <div class="menu w-80 bg-base-200 p-4">
-        <h2 class="mb-4 text-lg font-bold">Dosage Calculator</h2>
-
-        <!-- Weight input -->
-        <div class="form-control mb-4">
-        <label for="weightinput" class="label"><span class="label-text">Weight</span></label>
-        <input id="weightinput" bind:value={weight} type="number" placeholder="Enter weight" class="input input-bordered" />
-        <select bind:value={unit} class="select select-bordered mt-2">
-            <option value="kg">Kilograms (kg)</option>
-            <option value="lb">Pounds (lb)</option>
-        </select>
-        </div>
-
-        <div class="form-control mb-4">
-        <label class="label" for="dosage"><span class="label-text">Dosage (mg)</span></label>
-        <input id="dosage" bind:value={dosage} type="number" placeholder="Enter dosage in mg/kg" class="input input-bordered" />
-        </div>
-
-        <button on:click={calculateDosage} class="btn w-full bg-green-600 p-6 text-white">Calculate</button>
-
-        <div class="mt-4 p-3 bg-base-100 rounded border border-base-300">
-        {#if result}
-            <pre>{result}</pre>
-        {/if}
-        </div>
-        </div>
-    </div>
+<!-- Trigger button -->
+<div class="flex justify-end">
+	<button
+		class="btn bg-green-600 p-6 text-white"
+		on:click={() => (open = true)}
+		aria-label="Open dosage calculator"
+	>
+		Dosage Calculator
+		<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 64 64">
+			<rect x="8" y="4" width="48" height="56" rx="6" fill="#374151" />
+			<rect x="16" y="10" width="32" height="12" rx="2" fill="white" />
+			<rect x="16" y="28" width="12" height="12" rx="2" fill="white" />
+			<rect x="36" y="28" width="12" height="12" rx="2" fill="white" />
+			<rect x="16" y="44" width="12" height="12" rx="2" fill="white" />
+			<rect x="36" y="44" width="12" height="12" rx="2" fill="white" />
+			<text x="22" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">+</text>
+			<text x="42" y="35" font-size="12" fill="#374151" text-anchor="middle" dominant-baseline="middle">−</text>
+			<text x="22" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">×</text>
+			<text x="42" y="51" font-size="14" fill="#374151" text-anchor="middle" dominant-baseline="middle">÷</text>
+		</svg>
+	</button>
 </div>
+
+{#if open}
+	<!-- Overlay -->
+	<div
+		class="fixed inset-0 z-40 bg-black/30"
+		role="presentation"
+		on:click={() => (open = false)}
+	></div>
+
+	<!-- Side panel -->
+	<div
+		class="fixed top-0 right-0 z-50 h-full w-80 bg-base-200 shadow-xl flex flex-col p-4"
+		role="dialog"
+		aria-label="Dosage calculator"
+	>
+		<div class="flex items-center justify-between mb-4">
+			<h2 class="text-lg font-bold">Dosage Calculator</h2>
+			<button class="btn btn-sm btn-ghost" on:click={() => (open = false)} aria-label="Close">✕</button>
+		</div>
+
+		<div class="form-control mb-4">
+			<label for="weightinput" class="label"><span class="label-text">Weight</span></label>
+			<input id="weightinput" bind:value={weight} type="number" placeholder="Enter weight" class="input input-bordered" />
+			<select bind:value={unit} class="select select-bordered mt-2">
+				<option value="kg">Kilograms (kg)</option>
+				<option value="lb">Pounds (lb)</option>
+			</select>
+		</div>
+
+		<div class="form-control mb-4">
+			<label class="label" for="dosage"><span class="label-text">Dosage (mg/kg)</span></label>
+			<input id="dosage" bind:value={dosage} type="number" placeholder="Enter dosage in mg/kg" class="input input-bordered" />
+		</div>
+
+		<div class="flex gap-2">
+			<button on:click={calculateDosage} class="btn flex-1 bg-green-600 text-white">Calculate</button>
+			<button on:click={clear} class="btn btn-outline flex-1">Clear</button>
+		</div>
+
+		<div class="mt-4 p-3 bg-base-100 rounded border border-base-300 min-h-16" aria-live="polite">
+			{#if errorMsg}
+				<p class="text-error text-sm">{errorMsg}</p>
+			{:else if result}
+				<dl class="text-sm space-y-1">
+					<div class="flex justify-between">
+						<dt class="text-base-content/70">Weight</dt>
+						<dd class="font-medium">{result.weight} {result.unit}</dd>
+					</div>
+					<div class="flex justify-between">
+						<dt class="text-base-content/70">Dosage per kg</dt>
+						<dd class="font-medium">{result.dosagePerKg} mg</dd>
+					</div>
+					<div class="divider my-1"></div>
+					<div class="flex justify-between">
+						<dt class="font-semibold">Total dose</dt>
+						<dd class="font-bold text-base">{result.totalMg} mg</dd>
+					</div>
+				</dl>
+			{/if}
+		</div>
+	</div>
+{/if}

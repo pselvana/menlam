@@ -255,7 +255,7 @@
           
           <!-- Results Count and Items Per Page -->
           <div class="flex justify-between items-center flex-wrap gap-2">
-            <div class="text-sm text-base-content/70">
+            <div class="text-sm text-base-content/70" aria-live="polite" aria-atomic="true">
               Showing {paginatedData.length} of {filteredData.length} results
               {#if filteredData.length !== data.length}
                 (filtered from {data.length} total)
