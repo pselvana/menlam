@@ -1,4 +1,6 @@
 <script>
+	import { calculateDosage as computeDosage } from './dosageUtils.js';
+
 	let open = false;
 	let weight = '';
 	let unit = 'kg';
@@ -7,25 +9,14 @@
 	let errorMsg = '';
 
 	function calculateDosage() {
-		const w = parseFloat(weight);
-		const d = parseFloat(dosage);
-
-		if (isNaN(w) || isNaN(d) || w <= 0 || d <= 0 || w > 500 || d > 10000) {
+		const r = computeDosage(weight, dosage, unit);
+		if (r === null) {
 			errorMsg = 'Please enter valid numbers.';
 			result = null;
-			return;
+		} else {
+			errorMsg = '';
+			result = r;
 		}
-
-		errorMsg = '';
-		const weightKg = unit === 'lb' ? w * 0.453592 : w;
-		const mg = d * weightKg;
-
-		result = {
-			weight: w,
-			unit,
-			dosagePerKg: d,
-			totalMg: mg.toFixed(2)
-		};
 	}
 
 	function clear() {

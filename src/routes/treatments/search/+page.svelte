@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import Papa from 'papaparse';
   import DosageCalculator from '$lib/DosageCalculator.svelte';
+  import { highlightText as highlight } from '$lib/treatmentUtils.js';
 
   let data = [];
   let headers = [];
@@ -103,20 +104,7 @@
   
   // Highlight matching text
   function highlightText(text, search) {
-    if (!search || !text) return text;
-    
-    try {
-      if (useRegex) {
-        const regex = new RegExp(`(${search})`, 'gi');
-        return text.replace(regex, '<mark class="bg-warning text-warning-content mark">$1</mark>');
-      } else {
-        const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const regex = new RegExp(`(${escapedSearch})`, 'gi');
-        return text.replace(regex, '<mark class="bg-warning text-warning-content mark">$1</mark>');
-      }
-    } catch (e) {
-      return text;
-    }
+    return highlight(text, search, useRegex);
   }
   
   // Filter and sort data

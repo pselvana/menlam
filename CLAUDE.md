@@ -10,9 +10,11 @@ npm run build      # Production build
 npm run preview    # Preview production build
 npm run lint       # Prettier check + ESLint
 npm run format     # Auto-format with Prettier
+npm run test       # Run all tests (Vitest)
+npm run test:watch # Watch mode during development
 ```
 
-No test suite is configured.
+Tests live alongside source files as `*.test.js`. Pure business logic is extracted to [src/lib/dosageUtils.js](src/lib/dosageUtils.js) and [src/lib/treatmentUtils.js](src/lib/treatmentUtils.js) so it can be tested without a DOM.
 
 ## Architecture
 

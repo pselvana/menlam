@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { loadCSV } from '../csvLoader.js';
 	import DosageCalculator from '$lib/DosageCalculator.svelte';
+	import { getSections, getInfections, getSectionRemarks, getInfectionRemarks, getFinalRows } from '$lib/treatmentUtils.js';
 
 	let csv = [];
 	let patients = [];
@@ -34,12 +35,12 @@
 	function choosePatient(p) {
 		selectedPatient = p;
 		selectedSection = null;
-        sectionRemarks = null;
+		sectionRemarks = null;
 		infectionRemarks = null;
 		selectedInfection = null;
 		finalRows = [];
 
-		sections = [...new Set(csv.filter((r) => r.Patient === p).map((r) => r.Section))].sort();
+		sections = getSections(csv, p);
 
 		scrollToEl(sectionView);
 	}
@@ -49,44 +50,16 @@
 		selectedInfection = null;
 		finalRows = [];
 
-		infections = [
-			...new Set(
-				csv.filter((r) => r.Patient === selectedPatient && r.Section === s).map((r) => r.Infection)
-			)
-		].sort();
-
-        // Store section remarks
-        const remarkRow = csv.find(r => r.Patient === selectedPatient && r.Section === s && r['Section Remarks']);
-        sectionRemarks = remarkRow ? remarkRow['Section Remarks'] : "";
+		infections = getInfections(csv, selectedPatient, s);
+		sectionRemarks = getSectionRemarks(csv, selectedPatient, s);
 
 		scrollToEl(infectionView);
 	}
 
 	function chooseInfection(i) {
-
 		selectedInfection = i;
-		finalRows = [];
-		infectionRemarks = null;
-
-		finalRows = csv.filter(
-			(r) =>
-				r.Patient === selectedPatient &&
-				r.Section === selectedSection &&
-				r.Infection === selectedInfection
-		);
-
-		// Remove Patient, Section, Section Remarks, Infection columns from finalRows
-        finalRows = finalRows.map(({ Patient, Section, 'Section Remarks': _, Infection, 'Infection Remarks': __, ...rest }) => rest);
-
-		// Store infection remarks
-		const remarkRow = csv.find(
-			(r) =>
-				r.Patient === selectedPatient &&
-				r.Section === selectedSection &&
-				r.Infection === selectedInfection &&
-				r['Infection Remarks']
-		);
-		infectionRemarks = remarkRow ? remarkRow['Infection Remarks'] : "";
+		finalRows = getFinalRows(csv, selectedPatient, selectedSection, i);
+		infectionRemarks = getInfectionRemarks(csv, selectedPatient, selectedSection, i);
 
 		scrollToEl(tableView);
 	}
