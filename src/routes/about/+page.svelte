@@ -93,8 +93,12 @@
 	<br />
 	<p>
 		For complete guidance, please refer to the complete document:
+		<a href="/guideline" class="link">
+			National Antibiotic Guideline 2018 (PDF viewer)
+		</a>
+		or
 		<a href="/docs/National-Antibiotic-Guideline-2018.pdf" target="_blank" class="link">
-			National Antibiotic Guideline 2018 (PDF)
+			download the PDF
 		</a>
 	</p>
 </div>
