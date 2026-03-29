@@ -32,7 +32,8 @@
 		"prettier-plugin-tailwindcss": "^0.7.1",
 		"svelte": "^5.41.0",
 		"tailwindcss": "^4.1.17",
-		"vite": "^7.1.10"
+		"vite": "^7.1.10",
+		"vite-plugin-pwa": "^1.2.0"
 	},
 	"dependencies": {
 		"papaparse": "^5.5.3",

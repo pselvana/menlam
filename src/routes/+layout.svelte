@@ -2,12 +2,19 @@
 	import '../app.css';
 	import { browser } from '$app/environment';
 	import { beforeNavigate, afterNavigate } from '$app/navigation';
+	import { onMount } from 'svelte';
 	import posthog from 'posthog-js';
 
 	if (browser) {
 		beforeNavigate(() => posthog.capture('$pageleave'));
 		afterNavigate(() => posthog.capture('$pageview'));
 	}
+
+	onMount(() => {
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js', { scope: '/' });
+		}
+	});
 
   // Close drawer when clicking menu items
   const closeDrawer = () => {
