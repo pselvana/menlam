@@ -114,6 +114,8 @@
 	});
 </script>
 
+<div class="h-full flex flex-col overflow-hidden">
+
 <!-- Header bar -->
 <div class="navbar bg-base-200 border-b border-base-300 min-h-12 px-3 flex-shrink-0 gap-2">
 
@@ -265,5 +267,7 @@
 
 		<div bind:this={pagesContainer} class="flex flex-col items-center py-4 px-2"></div>
 	</div>
+
+</div>
 
 </div>

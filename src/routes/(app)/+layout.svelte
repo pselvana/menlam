@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../../app.css';
 	import { browser } from '$app/environment';
 	import { beforeNavigate, afterNavigate } from '$app/navigation';
 	import { onMount } from 'svelte';
@@ -22,13 +22,13 @@
     if (drawer) drawer.checked = false;
   };
 </script>
-<div class="min-h-screen flex flex-col w-full overflow-x-hidden">
+<div class="h-screen flex flex-col w-full overflow-hidden">
 
   <!-- MOBILE DRAWER (mobile only) -->
-  <div class="drawer lg:hidden w-full overflow-x-hidden">
+  <div class="drawer lg:hidden h-full w-full">
     <input id="main-drawer" type="checkbox" class="drawer-toggle" />
 
-    <div class="drawer-content flex flex-col w-full overflow-x-hidden min-h-screen">
+    <div class="drawer-content flex flex-col w-full h-full overflow-x-hidden">
 
       <!-- NAVBAR -->
       <div class="navbar bg-base-200 px-4 sm:px-6 w-full">
@@ -61,12 +61,12 @@
       </div>
 
       <!-- PAGE CONTENT -->
-      <div class="flex-grow w-full overflow-x-hidden">
+      <div class="flex-1 min-h-0 w-full overflow-y-auto overflow-x-hidden">
         <slot />
       </div>
 
       <!-- FOOTER -->
-      <div class="footer footer-center bg-base-200 p-2 mt-4 w-full">
+      <div class="footer footer-center bg-base-200 p-2 w-full">
         <div>
           <div class="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-warning text-warning-content font-bold shadow">
             <span class="text-lg">⚠️</span>
@@ -94,7 +94,7 @@
   </div>
 
   <!-- DESKTOP CONTENT OUTSIDE OF DRAWER -->
-  <div class="hidden lg:flex flex-col flex-grow">
+  <div class="hidden lg:flex flex-col h-full">
     <!-- Navbar (no hamburger) -->
     <div class="navbar bg-base-200 px-4 sm:px-6 w-full">
       <div class="flex-1 text-xl font-bold">
@@ -110,11 +110,11 @@
       </div>
     </div>
 
-    <div class="flex-grow w-full overflow-x-hidden">
+    <div class="flex-1 min-h-0 w-full overflow-y-auto overflow-x-hidden">
       <slot />
     </div>
 
-    <div class="footer footer-center bg-base-200 p-2 mt-4 w-full">
+    <div class="footer footer-center bg-base-200 p-2 w-full">
       <div>
         <div class="flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-warning text-warning-content font-bold shadow">
           <span class="text-lg">⚠️</span>
