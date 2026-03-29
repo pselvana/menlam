@@ -6,7 +6,8 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	test: {
 		include: ['src/**/*.test.js'],
-		environment: 'node'
+		environment: 'node',
+		reporters: ['default', ['junit', { outputFile: 'test-results/junit.xml' }]]
 	},
 	plugins: [
 		tailwindcss(),
